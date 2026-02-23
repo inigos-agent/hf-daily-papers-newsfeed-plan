@@ -7,7 +7,7 @@ Automated pipeline that pulls papers from Hugging Face Daily Papers, normalizes 
 - Collector for latest Daily Papers date (or explicit `--date`)
 - Parser for paper IDs from Hugging Face date pages
 - Per-paper metadata extraction (title, abstract snippet, external arXiv link when available)
-- Topic scoring using configurable keyword sets (`config/topics.json`)
+- Topic scoring using configurable weighted profile (`config/scoring_profile.json`)
 - Deterministic summary + “why it matters” generation
 - Outputs:
   - `data/raw/YYYY-MM-DD.html`
@@ -46,7 +46,8 @@ PYTHONPATH=src python3 run.py --limit 5
 ```text
 hf-daily-papers-newsfeed-plan/
   config/
-    topics.json
+    scoring_profile.json
+    SCORING.md
   data/
     raw/
     normalized/

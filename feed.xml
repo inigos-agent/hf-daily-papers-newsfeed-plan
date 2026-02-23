@@ -3,102 +3,12 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Mon, 23 Feb 2026 17:56:50 GMT</lastBuildDate>
-<item>
-<title>Computer-Using World Model</title>
-<link>https://huggingface.co/papers/2602.17365</link>
-<guid isPermaLink="false">0bef3943dd813aa4d9060d01b380e34f0ac86e49</guid>
-<description>Agents operating in complex software environments benefit from reasoning about the consequences of their actions, as even a single incorrect user interface (UI) operation can derail long, artifact-preserving workflows. This challenge is...</description>
-</item>
-<item>
-<title>References Improve LLM Alignment in Non-Verifiable Domains</title>
-<link>https://huggingface.co/papers/2602.16802</link>
-<guid isPermaLink="false">4c14d1f08e7f8365ffc48b0d6b14fe06e7e37386</guid>
-<description>While Reinforcement Learning with Verifiable Rewards (RLVR) has shown strong effectiveness in reasoning tasks, it cannot be directly applied to non-verifiable domains lacking ground-truth verifiers, such as LLM alignment. In this work, w...</description>
-</item>
+<lastBuildDate>Mon, 23 Feb 2026 18:04:29 GMT</lastBuildDate>
 <item>
 <title>Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report v1.5</title>
 <link>https://huggingface.co/papers/2602.14457</link>
 <guid isPermaLink="false">af4fd6b21b4177927be8fd5933c3360dc9692ee0</guid>
 <description>To understand and identify the unprecedented risks posed by rapidly advancing artificial intelligence (AI) models, Frontier AI Risk Management Framework in Practice presents a comprehensive assessment of their frontier risks. As Large La...</description>
-</item>
-<item>
-<title>World Models for Policy Refinement in StarCraft II</title>
-<link>https://huggingface.co/papers/2602.14857</link>
-<guid isPermaLink="false">4e3679ff25fefef2700491da5287ffbe7165da56</guid>
-<description>Large Language Models (LLMs) have recently shown strong reasoning and generalization capabilities, motivating their use as decision-making policies in complex environments. StarCraft II (SC2), with its massive state-action space and part...</description>
-</item>
-<item>
-<title>NESSiE: The Necessary Safety Benchmark -- Identifying Errors that should not Exist</title>
-<link>https://huggingface.co/papers/2602.16756</link>
-<guid isPermaLink="false">1a57ed72df2d8f9f1971e19e7113b173c5802352</guid>
-<description>We introduce NESSiE, the NEceSsary SafEty benchmark for large language models (LLMs). With minimal test cases of information and access security, NESSiE reveals safety-relevant failures that should not exist, given the low complexity of...</description>
-</item>
-<item>
-<title>Hardware Co-Design Scaling Laws via Roofline Modelling for On-Device LLMs</title>
-<link>https://huggingface.co/papers/2602.10377</link>
-<guid isPermaLink="false">d1a31ef2e0b6623f7c18c883b5b8f3e2c60067e1</guid>
-<description>Vision-Language-Action Models (VLAs) have emerged as a key paradigm of Physical AI and are increasingly deployed in autonomous vehicles, robots, and smart spaces. In these resource-constrained on-device settings, selecting an appropriate...</description>
-</item>
-<item>
-<title>DDiT: Dynamic Patch Scheduling for Efficient Diffusion Transformers</title>
-<link>https://huggingface.co/papers/2602.16968</link>
-<guid isPermaLink="false">386104625586bfffb200c9f31f414528f1777d75</guid>
-<description>Diffusion Transformers (DiTs) have achieved state-of-the-art performance in image and video generation, but their success comes at the cost of heavy computation. This inefficiency is largely due to the fixed tokenization process, which u...</description>
-</item>
-<item>
-<title>Discovering Multiagent Learning Algorithms with Large Language Models</title>
-<link>https://huggingface.co/papers/2602.16928</link>
-<guid isPermaLink="false">7ba221a95ac392898a70a16670ad149cc00c323e</guid>
-<description>Much of the advancement of Multi-Agent Reinforcement Learning (MARL) in imperfect-information games has historically depended on manual iterative refinement of baselines. While foundational families like Counterfactual Regret Minimizatio...</description>
-</item>
-<item>
-<title>ArXiv-to-Model: A Practical Study of Scientific LM Training</title>
-<link>https://huggingface.co/papers/2602.17288</link>
-<guid isPermaLink="false">3f47826bf77e0e64186a25813ee02e2931da5bdc</guid>
-<description>While frontier large language models demonstrate strong reasoning and mathematical capabilities, the practical process of training domain-specialized scientific language models from raw sources remains under-documented. In this work, we...</description>
-</item>
-<item>
-<title>NeST: Neuron Selective Tuning for LLM Safety</title>
-<link>https://huggingface.co/papers/2602.16835</link>
-<guid isPermaLink="false">70abba09c9da4475e9b119cd227b75c0369e1e79</guid>
-<description>Safety alignment is essential for the responsible deployment of large language models (LLMs). Yet, existing approaches often rely on heavyweight fine-tuning that is costly to update, audit, and maintain across model families. Full fine-t...</description>
-</item>
-<item>
-<title>SpargeAttention2: Trainable Sparse Attention via Hybrid Top-k+Top-p Masking and Distillation Fine-Tuning</title>
-<link>https://huggingface.co/papers/2602.13515</link>
-<guid isPermaLink="false">63c152e8ff579fa55c209fa124940051bf8fbc29</guid>
-<description>Many training-free sparse attention methods are effective for accelerating diffusion models. Recently, several works suggest that making sparse attention trainable can further increase sparsity while preserving generation quality. We stu...</description>
-</item>
-<item>
-<title>Calibrate-Then-Act: Cost-Aware Exploration in LLM Agents</title>
-<link>https://huggingface.co/papers/2602.16699</link>
-<guid isPermaLink="false">4a7a80ed9ee282a97c12b57bfe86f60e28293f2e</guid>
-<description>LLMs are increasingly being used for complex problems which are not necessarily resolved in a single response, but require interacting with an environment to acquire information. In these scenarios, LLMs must reason about inherent cost-u...</description>
-</item>
-<item>
-<title>"What Are You Doing?": Effects of Intermediate Feedback from Agentic LLM In-Car Assistants During Multi-Step Processing</title>
-<link>https://huggingface.co/papers/2602.15569</link>
-<guid isPermaLink="false">4c179aff695d55d36451d599dcedeba0948270c5</guid>
-<description>Agentic AI assistants that autonomously perform multi-step tasks raise open questions for user experience: how should such systems communicate progress and reasoning during extended operations, especially in attention-critical contexts s...</description>
-</item>
-<item>
-<title>TactAlign: Human-to-Robot Policy Transfer via Tactile Alignment</title>
-<link>https://huggingface.co/papers/2602.13579</link>
-<guid isPermaLink="false">30dd8bf94e9cd284e37bb44aae101531484e3dfd</guid>
-<description>Human demonstrations collected by wearable devices (e.g., tactile gloves) provide fast and dexterous supervision for policy learning, and are guided by rich, natural tactile feedback. However, a key challenge is how to transfer human-col...</description>
-</item>
-<item>
-<title>Modeling Distinct Human Interaction in Web Agents</title>
-<link>https://huggingface.co/papers/2602.17588</link>
-<guid isPermaLink="false">78dacd6e638cc38e148adbf8f8ec15c96e186f93</guid>
-<description>Despite rapid progress in autonomous web agents, human involvement remains essential for shaping preferences and correcting agent behavior as tasks unfold. However, current agentic systems lack a principled understanding of when and why...</description>
-</item>
-<item>
-<title>CrispEdit: Low-Curvature Projections for Scalable Non-Destructive LLM Editing</title>
-<link>https://huggingface.co/papers/2602.15823</link>
-<guid isPermaLink="false">c89ab8ca4a0eaec09acfb95f84999b8c95ead831</guid>
-<description>A central challenge in large language model (LLM) editing is capability preservation: methods that successfully change targeted behavior can quietly game the editing proxy and corrupt general capabilities, producing degenerate behaviors...</description>
 </item>
 <item>
 <title>Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents</title>
@@ -107,10 +17,10 @@
 <description>The paper introduces GUI-Owl-1.5, the latest native GUI agent model that features instruct/thinking variants in multiple sizes (2B/4B/8B/32B/235B) and supports a range of platforms (desktop, mobile, browser, and more) to enable cloud-edg...</description>
 </item>
 <item>
-<title>FRAPPE: Infusing World Modeling into Generalist Policies via Multiple Future Representation Alignment</title>
-<link>https://huggingface.co/papers/2602.17259</link>
-<guid isPermaLink="false">999f24bf42b821c0ca8062c5b3610878ff4f08e9</guid>
-<description>Enabling VLA models to predict environmental dynamics, known as world modeling, has been recognized as essential for improving robotic reasoning and generalization. However, current approaches face two main issues: 1. The training object...</description>
+<title>SpargeAttention2: Trainable Sparse Attention via Hybrid Top-k+Top-p Masking and Distillation Fine-Tuning</title>
+<link>https://huggingface.co/papers/2602.13515</link>
+<guid isPermaLink="false">63c152e8ff579fa55c209fa124940051bf8fbc29</guid>
+<description>Many training-free sparse attention methods are effective for accelerating diffusion models. Recently, several works suggest that making sparse attention trainable can further increase sparsity while preserving generation quality. We stu...</description>
 </item>
 <item>
 <title>Unified Latents (UL): How to train your latents</title>
@@ -123,23 +33,5 @@
 <link>https://huggingface.co/papers/2602.17004</link>
 <guid isPermaLink="false">5927c0ad1bd379aa61d25bc357a1d739e1c7dcd4</guid>
 <description>We present the technical report for Arcee Trinity Large, a sparse Mixture-of-Experts model with 400B total parameters and 13B activated per token. Additionally, we report on Trinity Nano and Trinity Mini, with Trinity Nano having 6B tota...</description>
-</item>
-<item>
-<title>2Mamba2Furious: Linear in Complexity, Competitive in Accuracy</title>
-<link>https://huggingface.co/papers/2602.17363</link>
-<guid isPermaLink="false">3a889d7cd8982bb14f299483e6d3e45680ad4246</guid>
-<description>Linear attention transformers have become a strong alternative to softmax attention due to their efficiency. However, linear attention tends to be less expressive and results in reduced accuracy compared to softmax attention. To bridge t...</description>
-</item>
-<item>
-<title>On the Mechanism and Dynamics of Modular Addition: Fourier Features, Lottery Ticket, and Grokking</title>
-<link>https://huggingface.co/papers/2602.16849</link>
-<guid isPermaLink="false">b6df901f01d61aba669454a10f93129157ff9b60</guid>
-<description>We present a comprehensive analysis of how two-layer neural networks learn features to solve the modular addition task. Our work provides a full mechanistic interpretation of the learned model and a theoretical explanation of its trainin...</description>
-</item>
-<item>
-<title>StereoAdapter-2: Globally Structure-Consistent Underwater Stereo Depth Estimation</title>
-<link>https://huggingface.co/papers/2602.16915</link>
-<guid isPermaLink="false">83901a2477c86541053d4a519378c44212e693c0</guid>
-<description>Stereo depth estimation is fundamental to underwater robotic perception, yet suffers from severe domain shifts caused by wavelength-dependent light attenuation, scattering, and refraction. Recent approaches leverage monocular foundation...</description>
 </item>
 </channel></rss>

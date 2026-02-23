@@ -85,23 +85,32 @@ def extract_daily_papers_records(date_page_html: str) -> list[dict[str, Any]]:
         return []
 
 
-def load_topics(path: str) -> dict[str, list[str]]:
+def load_scoring_profile(path: str) -> dict[str, Any]:
     with open(path, "r", encoding="utf-8") as f:
         return json.load(f)
 
 
-def score_topics(title: str, abstract: str, topics_cfg: dict[str, list[str]]) -> tuple[list[str], float]:
+def score_topics(title: str, abstract: str, profile: dict[str, Any]) -> tuple[list[str], float]:
     text = (title + "\n" + abstract).lower()
-    matched = []
+    categories = profile.get("categories", {})
+    base_per_hit = float(profile.get("base_per_hit", 0.15))
+    cap_per_category = float(profile.get("cap_per_category", 1.0))
+
+    matched: list[str] = []
     score = 0.0
-    for topic, kws in topics_cfg.items():
+
+    for topic, cfg in categories.items():
+        kws = cfg.get("keywords", []) if isinstance(cfg, dict) else []
+        weight = float(cfg.get("weight", 1.0)) if isinstance(cfg, dict) else 1.0
+
         hit = 0
         for kw in kws:
-            if kw.lower() in text:
+            if str(kw).lower() in text:
                 hit += 1
         if hit:
             matched.append(topic)
-            score += min(1.0, 0.15 * hit)
+            score += min(cap_per_category, base_per_hit * hit) * weight
+
     if not matched:
         matched = ["other"]
     return matched, min(1.0, score)
@@ -163,7 +172,7 @@ def ensure_dirs(root: str) -> None:
 
 def run(root: str, target_date: str | None = None, limit: int | None = None) -> list[Paper]:
     ensure_dirs(root)
-    topics_cfg = load_topics(os.path.join(root, "config", "topics.json"))
+    scoring_profile = load_scoring_profile(os.path.join(root, "config", "scoring_profile.json"))
 
     if not target_date:
         home = http_get(f"{HF_BASE}/papers")
@@ -203,7 +212,7 @@ def run(root: str, target_date: str | None = None, limit: int | None = None) -> 
             external = f"https://arxiv.org/abs/{pid}"
             url = f"{HF_BASE}/papers/{pid}"
 
-            topics, score = score_topics(title, abstract, topics_cfg)
+            topics, score = score_topics(title, abstract, scoring_profile)
             summary, why = summarize(title, abstract, topics)
             papers.append(
                 Paper(
@@ -254,7 +263,7 @@ def cli(argv: Iterable[str] | None = None) -> int:
     args = p.parse_args(list(argv) if argv is not None else None)
 
     cwd = os.getcwd()
-    root = cwd if os.path.exists(os.path.join(cwd, "config", "topics.json")) else os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
+    root = cwd if os.path.exists(os.path.join(cwd, "config", "scoring_profile.json")) else os.path.abspath(os.path.join(os.path.dirname(__file__), "..", ".."))
     papers = run(root=root, target_date=args.date, limit=args.limit)
     print(f"OK: generated {len(papers)} papers")
     return 0

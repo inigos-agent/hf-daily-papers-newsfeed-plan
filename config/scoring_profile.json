@@ -1,0 +1,30 @@
+{
+  "base_per_hit": 0.15,
+  "cap_per_category": 1.0,
+  "categories": {
+    "popularity": {
+      "weight": 1.0,
+      "keywords": ["state-of-the-art", "sota", "benchmark", "leaderboard", "open-source"]
+    },
+    "generative_ai": {
+      "weight": 1.0,
+      "keywords": ["generative", "diffusion", "llm", "language model", "text-to-image", "multimodal"]
+    },
+    "healthcare": {
+      "weight": 1.0,
+      "keywords": ["health", "healthcare", "clinical", "medical", "patient", "diagnosis"]
+    },
+    "agents": {
+      "weight": 1.0,
+      "keywords": ["agent", "tool use", "planning", "mcp", "workflow"]
+    },
+    "safety": {
+      "weight": 1.0,
+      "keywords": ["alignment", "safety", "robustness", "red team", "risk"]
+    },
+    "efficiency": {
+      "weight": 1.0,
+      "keywords": ["quantization", "sparsity", "distillation", "latency", "throughput"]
+    }
+  }
+}

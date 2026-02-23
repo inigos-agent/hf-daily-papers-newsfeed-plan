@@ -25,11 +25,15 @@ class TestPipeline(unittest.TestCase):
         self.assertEqual(recs[0]["paper"]["id"], "2602.12345")
 
     def test_score_topics(self):
-        topics = {
-            "llm": ["language model", "token"],
-            "multimodal": ["image", "video"],
+        profile = {
+            "base_per_hit": 0.2,
+            "cap_per_category": 1.0,
+            "categories": {
+                "llm": {"weight": 1.0, "keywords": ["language model", "token"]},
+                "multimodal": {"weight": 1.0, "keywords": ["image", "video"]},
+            },
         }
-        matched, score = score_topics("A language model for image tokens", "", topics)
+        matched, score = score_topics("A language model for image tokens", "", profile)
         self.assertIn("llm", matched)
         self.assertIn("multimodal", matched)
         self.assertGreater(score, 0)
