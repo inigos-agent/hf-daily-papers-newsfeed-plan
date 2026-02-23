@@ -1,0 +1,8 @@
+{
+  "llm": ["language model", "llm", "reasoning", "transformer", "token"],
+  "agents": ["agent", "tool use", "planning", "retrieval", "workflow"],
+  "multimodal": ["vision", "image", "video", "audio", "multimodal"],
+  "rl": ["reinforcement learning", "policy", "reward", "actor-critic"],
+  "efficiency": ["quantization", "sparsity", "distillation", "latency", "throughput"],
+  "safety": ["alignment", "safety", "harmless", "privacy", "robustness"]
+}

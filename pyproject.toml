@@ -1,0 +1,8 @@
+[project]
+name = "hf-daily-papers-newsfeed"
+version = "0.1.0"
+description = "Build daily digest + RSS from Hugging Face Daily Papers"
+requires-python = ">=3.10"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]

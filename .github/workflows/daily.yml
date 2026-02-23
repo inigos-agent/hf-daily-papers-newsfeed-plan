@@ -1,0 +1,38 @@
+name: Daily HF Papers Feed
+
+on:
+  schedule:
+    - cron: "10 8 * * *"
+  workflow_dispatch:
+
+jobs:
+  build-feed:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Run tests
+        run: PYTHONPATH=src python -m unittest discover -s tests -p "test_*.py"
+
+      - name: Build digest/feed
+        run: PYTHONPATH=src python run.py
+
+      - name: Commit updates
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add digest/ data/ feed.xml
+          if git diff --cached --quiet; then
+            echo "No changes to commit"
+            exit 0
+          fi
+          git commit -m "chore: daily papers digest update"
+          git push
