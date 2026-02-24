@@ -3,35 +3,113 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Mon, 23 Feb 2026 18:04:29 GMT</lastBuildDate>
+<lastBuildDate>Tue, 24 Feb 2026 10:34:27 GMT</lastBuildDate>
 <item>
-<title>Frontier AI Risk Management Framework in Practice: A Risk Analysis Technical Report v1.5</title>
-<link>https://huggingface.co/papers/2602.14457</link>
-<guid isPermaLink="false">af4fd6b21b4177927be8fd5933c3360dc9692ee0</guid>
-<description>To understand and identify the unprecedented risks posed by rapidly advancing artificial intelligence (AI) models, Frontier AI Risk Management Framework in Practice presents a comprehensive assessment of their frontier risks. As Large La...</description>
+<title>Rubrics as an Attack Surface: Stealthy Preference Drift in LLM Judges</title>
+<link>https://huggingface.co/papers/2602.13576</link>
+<guid isPermaLink="false">20c0f41f3c0b43ffebdd2ec70635aaa3e0cb84d7</guid>
+<description>Evaluation and alignment pipelines for large language models increasingly rely on LLM-based judges, whose behavior is guided by natural-language rubrics and validated on benchmarks. We identify a previously under-recognized vulnerability...</description>
 </item>
 <item>
-<title>Mobile-Agent-v3.5: Multi-platform Fundamental GUI Agents</title>
-<link>https://huggingface.co/papers/2602.16855</link>
-<guid isPermaLink="false">133670c8095b2ffc09a88db6c21ba52c1cf8349e</guid>
-<description>The paper introduces GUI-Owl-1.5, the latest native GUI agent model that features instruct/thinking variants in multiple sizes (2B/4B/8B/32B/235B) and supports a range of platforms (desktop, mobile, browser, and more) to enable cloud-edg...</description>
+<title>VESPO: Variational Sequence-Level Soft Policy Optimization for Stable Off-Policy LLM Training</title>
+<link>https://huggingface.co/papers/2602.10693</link>
+<guid isPermaLink="false">736f4883db86c2c52bed3b291b9a54eb42fc1240</guid>
+<description>Training stability remains a central challenge in reinforcement learning (RL) for large language models (LLMs). Policy staleness, asynchronous training, and mismatches between training and inference engines all cause the behavior policy...</description>
 </item>
 <item>
-<title>SpargeAttention2: Trainable Sparse Attention via Hybrid Top-k+Top-p Masking and Distillation Fine-Tuning</title>
-<link>https://huggingface.co/papers/2602.13515</link>
-<guid isPermaLink="false">63c152e8ff579fa55c209fa124940051bf8fbc29</guid>
-<description>Many training-free sparse attention methods are effective for accelerating diffusion models. Recently, several works suggest that making sparse attention trainable can further increase sparsity while preserving generation quality. We stu...</description>
+<title>ReIn: Conversational Error Recovery with Reasoning Inception</title>
+<link>https://huggingface.co/papers/2602.17022</link>
+<guid isPermaLink="false">24f319fb0ddf9fcd568eb8328c7e7ec9e029e5b9</guid>
+<description>Conversational agents powered by large language models (LLMs) with tool integration achieve strong performance on fixed task-oriented dialogue datasets but remain vulnerable to unanticipated, user-induced errors. Rather than focusing on...</description>
 </item>
 <item>
-<title>Unified Latents (UL): How to train your latents</title>
-<link>https://huggingface.co/papers/2602.17270</link>
-<guid isPermaLink="false">f6b2d86fac2dd2624271cb037a091b1a47c44e7a</guid>
-<description>We present Unified Latents (UL), a framework for learning latent representations that are jointly regularized by a diffusion prior and decoded by a diffusion model. By linking the encoder's output noise to the prior's minimum noise level...</description>
+<title>SARAH: Spatially Aware Real-time Agentic Humans</title>
+<link>https://huggingface.co/papers/2602.18432</link>
+<guid isPermaLink="false">6a0ca08a815ca78261289e238776ada3626d178a</guid>
+<description>As embodied agents become central to VR, telepresence, and digital human applications, their motion must go beyond speech-aligned gestures: agents should turn toward users, respond to their movement, and maintain natural gaze. Current me...</description>
 </item>
 <item>
-<title>Arcee Trinity Large Technical Report</title>
-<link>https://huggingface.co/papers/2602.17004</link>
-<guid isPermaLink="false">5927c0ad1bd379aa61d25bc357a1d739e1c7dcd4</guid>
-<description>We present the technical report for Arcee Trinity Large, a sparse Mixture-of-Experts model with 400B total parameters and 13B activated per token. Additionally, we report on Trinity Nano and Trinity Mini, with Trinity Nano having 6B tota...</description>
+<title>Sink-Aware Pruning for Diffusion Language Models</title>
+<link>https://huggingface.co/papers/2602.17664</link>
+<guid isPermaLink="false">53a56dfeb126a7924c5cb5bff430c86867b832a5</guid>
+<description>Diffusion Language Models (DLMs) incur high inference cost due to iterative denoising, motivating efficient pruning. Existing pruning heuristics largely inherited from autoregressive (AR) LLMs, typically preserve attention sink tokens be...</description>
+</item>
+<item>
+<title>Whom to Query for What: Adaptive Group Elicitation via Multi-Turn LLM Interactions</title>
+<link>https://huggingface.co/papers/2602.14279</link>
+<guid isPermaLink="false">09adfcbcd610812cf21c56f03bf29aa6f62e3b8a</guid>
+<description>Eliciting information to reduce uncertainty about latent group-level properties from surveys and other collective assessments requires allocating limited questioning effort under real costs and missing data. Although large language model...</description>
+</item>
+<item>
+<title>Generated Reality: Human-centric World Simulation using Interactive Video Generation with Hand and Camera Control</title>
+<link>https://huggingface.co/papers/2602.18422</link>
+<guid isPermaLink="false">d269d62b5ece72228a114e2e36103396cf9b9368</guid>
+<description>Extended reality (XR) demands generative models that respond to users' tracked real-world motion, yet current video world models accept only coarse control signals such as text or keyboard input, limiting their utility for embodied inter...</description>
+</item>
+<item>
+<title>Decoding as Optimisation on the Probability Simplex: From Top-K to Top-P (Nucleus) to Best-of-K Samplers</title>
+<link>https://huggingface.co/papers/2602.18292</link>
+<guid isPermaLink="false">89f08b65842c5fbfe4a3ff82e2bc4068e82af582</guid>
+<description>Decoding sits between a language model and everything we do with it, yet it is still treated as a heuristic knob-tuning exercise. We argue decoding should be understood as a principled optimisation layer: at each token, we solve a regula...</description>
+</item>
+<item>
+<title>Spanning the Visual Analogy Space with a Weight Basis of LoRAs</title>
+<link>https://huggingface.co/papers/2602.15727</link>
+<guid isPermaLink="false">f9e5309ae2da37f5298b8161aec748b4d4c689a1</guid>
+<description>Visual analogy learning enables image manipulation through demonstration rather than textual description, allowing users to specify complex transformations difficult to articulate in words. Given a triplet {a, a', b}, the goal is to gene...</description>
+</item>
+<item>
+<title>DeepVision-103K: A Visually Diverse, Broad-Coverage, and Verifiable Mathematical Dataset for Multimodal Reasoning</title>
+<link>https://huggingface.co/papers/2602.16742</link>
+<guid isPermaLink="false">711161acd56a1585ddc7b2336d6dc5b911218d8f</guid>
+<description>Reinforcement Learning with Verifiable Rewards (RLVR) has been shown effective in enhancing the visual reflection and reasoning capabilities of Large Multimodal Models (LMMs). However, existing datasets are predominantly derived from eit...</description>
+</item>
+<item>
+<title>Does Your Reasoning Model Implicitly Know When to Stop Thinking?</title>
+<link>https://huggingface.co/papers/2602.08354</link>
+<guid isPermaLink="false">bffc69667120d87b8641be5946b14b12bca13966</guid>
+<description>Recent advancements in large reasoning models (LRMs) have greatly improved their capabilities on complex reasoning tasks through Long Chains of Thought (CoTs). However, this approach often results in substantial redundancy, impairing com...</description>
+</item>
+<item>
+<title>Avey-B</title>
+<link>https://huggingface.co/papers/2602.15814</link>
+<guid isPermaLink="false">2ace7b25b1daf680e070256c51a272a56fbc3186</guid>
+<description>Compact pretrained bidirectional encoders remain the backbone of industrial NLP under tight compute and memory budgets. Their effectiveness stems from self-attention's ability to deliver high-quality bidirectional contextualization with...</description>
+</item>
+<item>
+<title>Selective Training for Large Vision Language Models via Visual Information Gain</title>
+<link>https://huggingface.co/papers/2602.17186</link>
+<guid isPermaLink="false">70dfa864285fa0a25e0451b69a3323e17cd20ca0</guid>
+<description>Large Vision Language Models (LVLMs) have achieved remarkable progress, yet they often suffer from language bias, producing answers without relying on visual evidence. While prior work attempts to mitigate this issue through decoding str...</description>
+</item>
+<item>
+<title>Adam Improves Muon: Adaptive Moment Estimation with Orthogonalized Momentum</title>
+<link>https://huggingface.co/papers/2602.17080</link>
+<guid isPermaLink="false">acd4625b8f8ff52b014b4bcbe439925d96abcc60</guid>
+<description>Efficient stochastic optimization typically integrates an update direction that performs well in the deterministic regime with a mechanism adapting to stochastic perturbations. While Adam uses adaptive moment estimates to promote stabili...</description>
+</item>
+<item>
+<title>EgoPush: Learning End-to-End Egocentric Multi-Object Rearrangement for Mobile Robots</title>
+<link>https://huggingface.co/papers/2602.18071</link>
+<guid isPermaLink="false">bc7af7b799a28d8d0044cd5102e6259f4586d2b1</guid>
+<description>Humans can rearrange objects in cluttered environments using egocentric perception, navigating occlusions without global coordinates. Inspired by this capability, we study long-horizon multi-object non-prehensile rearrangement for mobile...</description>
+</item>
+<item>
+<title>VidEoMT: Your ViT is Secretly Also a Video Segmentation Model</title>
+<link>https://huggingface.co/papers/2602.17807</link>
+<guid isPermaLink="false">38fb1e80e85efa86bdcb6809be1be783dd7a326b</guid>
+<description>Existing online video segmentation models typically combine a per-frame segmenter with complex specialized tracking modules. While effective, these modules introduce significant architectural complexity and computational overhead. Recent...</description>
+</item>
+<item>
+<title>Learning Smooth Time-Varying Linear Policies with an Action Jacobian Penalty</title>
+<link>https://huggingface.co/papers/2602.18312</link>
+<guid isPermaLink="false">9d552e742bd39339d17b30a0b53a6684d7e289b2</guid>
+<description>Reinforcement learning provides a framework for learning control policies that can reproduce diverse motions for simulated characters. However, such policies often exploit unnatural high-frequency signals that are unachievable by humans...</description>
+</item>
+<item>
+<title>4RC: 4D Reconstruction via Conditional Querying Anytime and Anywhere</title>
+<link>https://huggingface.co/papers/2602.10094</link>
+<guid isPermaLink="false">dddf12171c3063dbdb6558a550b685d355af24af</guid>
+<description>We present 4RC, a unified feed-forward framework for 4D reconstruction from monocular videos. Unlike existing approaches that typically decouple motion from geometry or produce limited 4D attributes such as sparse trajectories or two-vie...</description>
 </item>
 </channel></rss>
