@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 01 Mar 2026 09:00:22 GMT</lastBuildDate>
+<lastBuildDate>Mon, 02 Mar 2026 10:31:40 GMT</lastBuildDate>
 <item>
 <title>MediX-R1: Open Ended Medical Reinforcement Learning</title>
 <link>https://huggingface.co/papers/2602.23363</link>
@@ -83,6 +83,12 @@
 <description>Reinforcement Learning with Verifiable Rewards (RLVR) has become the leading paradigm for enhancing reasoning in Large Language Models (LLMs). However, standard RLVR algorithms suffer from a well-documented pathology: while they improve...</description>
 </item>
 <item>
+<title>What Makes a Good Query? Measuring the Impact of Human-Confusing Linguistic Features on LLM Performance</title>
+<link>https://huggingface.co/papers/2602.20300</link>
+<guid isPermaLink="false">272bf389a522add7ac6389e27381bc4b1002a9c6</guid>
+<description>Large Language Model (LLM) hallucinations are usually treated as defects of the model or its decoding strategy. Drawing on classical linguistics, we argue that a query's form can also shape a listener's (and model's) response. We operati...</description>
+</item>
+<item>
 <title>MedCLIPSeg: Probabilistic Vision-Language Adaptation for Data-Efficient and Generalizable Medical Image Segmentation</title>
 <link>https://huggingface.co/papers/2602.20423</link>
 <guid isPermaLink="false">126869f5a692bcb207485f24723dc9aded882219</guid>
@@ -93,12 +99,6 @@
 <link>https://huggingface.co/papers/2602.20332</link>
 <guid isPermaLink="false">a480164ead580e832d2f715bd367b01bdcbc59ea</guid>
 <description>Advanced reasoning capabilities in Large Language Models (LLMs) have led to more frequent hallucinations; yet most mitigation work focuses on open-source models for post-hoc detection and parameter editing. The dearth of studies focusing...</description>
-</item>
-<item>
-<title>What Makes a Good Query? Measuring the Impact of Human-Confusing Linguistic Features on LLM Performance</title>
-<link>https://huggingface.co/papers/2602.20300</link>
-<guid isPermaLink="false">272bf389a522add7ac6389e27381bc4b1002a9c6</guid>
-<description>Large Language Model (LLM) hallucinations are usually treated as defects of the model or its decoding strategy. Drawing on classical linguistics, we argue that a query's form can also shape a listener's (and model's) response. We operati...</description>
 </item>
 <item>
 <title>Efficient Continual Learning in Language Models via Thalamically Routed Cortical Columns</title>
