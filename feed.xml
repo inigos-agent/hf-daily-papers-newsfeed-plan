@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sat, 07 Mar 2026 09:00:26 GMT</lastBuildDate>
+<lastBuildDate>Sun, 08 Mar 2026 09:00:49 GMT</lastBuildDate>
 <item>
 <title>Mozi: Governed Autonomy for Drug Discovery LLM Agents</title>
 <link>https://huggingface.co/papers/2603.03655</link>
@@ -77,16 +77,16 @@
 <description>We introduce Timer-S1, a strong Mixture-of-Experts (MoE) time series foundation model with 8.3B total parameters, 0.75B activated parameters for each token, and a context length of 11.5K. To overcome the scalability bottleneck in existin...</description>
 </item>
 <item>
-<title>STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification</title>
-<link>https://huggingface.co/papers/2603.00695</link>
-<guid isPermaLink="false">fd8a8bf81e7423d8bbfccf73069af7d21b33526f</guid>
-<description>Multi-modal object Re-Identification (ReID) aims to exploit complementary information from different modalities to retrieve specific objects. However, existing methods often rely on hard token filtering or simple fusion strategies, which...</description>
-</item>
-<item>
 <title>UltraDexGrasp: Learning Universal Dexterous Grasping for Bimanual Robots with Synthetic Data</title>
 <link>https://huggingface.co/papers/2603.05312</link>
 <guid isPermaLink="false">c433793d17864ed9da22f1937a659377072e6245</guid>
 <description>Grasping is a fundamental capability for robots to interact with the physical world. Humans, equipped with two hands, autonomously select appropriate grasp strategies based on the shape, size, and weight of objects, enabling robust grasp...</description>
+</item>
+<item>
+<title>STMI: Segmentation-Guided Token Modulation with Cross-Modal Hypergraph Interaction for Multi-Modal Object Re-Identification</title>
+<link>https://huggingface.co/papers/2603.00695</link>
+<guid isPermaLink="false">fd8a8bf81e7423d8bbfccf73069af7d21b33526f</guid>
+<description>Multi-modal object Re-Identification (ReID) aims to exploit complementary information from different modalities to retrieve specific objects. However, existing methods often rely on hard token filtering or simple fusion strategies, which...</description>
 </item>
 <item>
 <title>HiFi-Inpaint: Towards High-Fidelity Reference-Based Inpainting for Generating Detail-Preserving Human-Product Images</title>
@@ -95,10 +95,10 @@
 <description>Human-product images, which showcase the integration of humans and products, play a vital role in advertising, e-commerce, and digital marketing. The essential challenge of generating such images lies in ensuring the high-fidelity preser...</description>
 </item>
 <item>
-<title>SageBwd: A Trainable Low-bit Attention</title>
-<link>https://huggingface.co/papers/2603.02170</link>
-<guid isPermaLink="false">c196775ef79f84903ff69f9e84ae0aa787d83c34</guid>
-<description>Low-bit attention, such as SageAttention, has emerged as an effective approach for accelerating model inference, but its applicability to training remains poorly understood. In prior work, we introduced SageBwd, a trainable INT8 attentio...</description>
+<title>Interactive Benchmarks</title>
+<link>https://huggingface.co/papers/2603.04737</link>
+<guid isPermaLink="false">d38e99ebacf289b768ab5dbc01a57a69860a0dda</guid>
+<description>Standard benchmarks have become increasingly unreliable due to saturation, subjectivity, and poor generalization. We argue that evaluating model's ability to acquire information actively is important to assess model's intelligence. We pr...</description>
 </item>
 <item>
 <title>DreamWorld: Unified World Modeling in Video Generation</title>
@@ -107,10 +107,10 @@
 <description>Despite impressive progress in video generation, existing models remain limited to surface-level plausibility, lacking a coherent and unified understanding of the world. Prior approaches typically incorporate only a single form of world-...</description>
 </item>
 <item>
-<title>Interactive Benchmarks</title>
-<link>https://huggingface.co/papers/2603.04737</link>
-<guid isPermaLink="false">d38e99ebacf289b768ab5dbc01a57a69860a0dda</guid>
-<description>Standard benchmarks have become increasingly unreliable due to saturation, subjectivity, and poor generalization. We argue that evaluating model's ability to acquire information actively is important to assess model's intelligence. We pr...</description>
+<title>SageBwd: A Trainable Low-bit Attention</title>
+<link>https://huggingface.co/papers/2603.02170</link>
+<guid isPermaLink="false">c196775ef79f84903ff69f9e84ae0aa787d83c34</guid>
+<description>Low-bit attention, such as SageAttention, has emerged as an effective approach for accelerating model inference, but its applicability to training remains poorly understood. In prior work, we introduced SageBwd, a trainable INT8 attentio...</description>
 </item>
 <item>
 <title>RealWonder: Real-Time Physical Action-Conditioned Video Generation</title>
@@ -131,16 +131,16 @@
 <description>Reasoning models think out loud, but much of what they say is noise. We introduce OPSDC (On-Policy Self-Distillation for Reasoning Compression), a method that teaches models to reason more concisely by distilling their own concise behavi...</description>
 </item>
 <item>
-<title>Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling</title>
-<link>https://huggingface.co/papers/2603.04553</link>
-<guid isPermaLink="false">4baa003bb1fb72d47c2bab57c8fb4445b5bb7f6b</guid>
-<description>We introduce Latent Particle World Model (LPWM), a self-supervised object-centric world model scaled to real-world multi-object datasets and applicable in decision-making. LPWM autonomously discovers keypoints, bounding boxes, and object...</description>
-</item>
-<item>
 <title>Distribution-Conditioned Transport</title>
 <link>https://huggingface.co/papers/2603.04736</link>
 <guid isPermaLink="false">be2eb88465d80d39f83b254b950528d2d7f32664</guid>
 <description>Learning a transport model that maps a source distribution to a target distribution is a canonical problem in machine learning, but scientific applications increasingly require models that can generalize to source and target distribution...</description>
+</item>
+<item>
+<title>Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling</title>
+<link>https://huggingface.co/papers/2603.04553</link>
+<guid isPermaLink="false">4baa003bb1fb72d47c2bab57c8fb4445b5bb7f6b</guid>
+<description>We introduce Latent Particle World Model (LPWM), a self-supervised object-centric world model scaled to real-world multi-object datasets and applicable in decision-making. LPWM autonomously discovers keypoints, bounding boxes, and object...</description>
 </item>
 <item>
 <title>RoboPocket: Improve Robot Policies Instantly with Your Phone</title>
