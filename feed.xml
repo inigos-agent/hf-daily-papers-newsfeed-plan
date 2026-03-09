@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 08 Mar 2026 09:00:49 GMT</lastBuildDate>
+<lastBuildDate>Mon, 09 Mar 2026 10:31:45 GMT</lastBuildDate>
 <item>
 <title>Mozi: Governed Autonomy for Drug Discovery LLM Agents</title>
 <link>https://huggingface.co/papers/2603.03655</link>
@@ -47,16 +47,16 @@
 <description>While large language models (LLMs) show promise in scientific discovery, existing research focuses on inference or feedback-driven training, leaving the direct modeling of the generative reasoning process, P(hypothesis|background) (P(h|b...</description>
 </item>
 <item>
-<title>Truncated Step-Level Sampling with Process Rewards for Retrieval-Augmented Reasoning</title>
-<link>https://huggingface.co/papers/2602.23440</link>
-<guid isPermaLink="false">828e44237f1ec90b076e4a4803849e0007933b4e</guid>
-<description>Training large language models to reason with search engines via reinforcement learning is hindered by a fundamental credit assignment problem: existing methods such as Search-R1 provide only a sparse outcome reward after an entire multi...</description>
-</item>
-<item>
 <title>Towards Multimodal Lifelong Understanding: A Dataset and Agentic Baseline</title>
 <link>https://huggingface.co/papers/2603.05484</link>
 <guid isPermaLink="false">d2e6852c4abf10c28065e64f29b34758c3c3ac15</guid>
 <description>While datasets for video understanding have scaled to hour-long durations, they typically consist of densely concatenated clips that differ from natural, unscripted daily life. To bridge this gap, we introduce MM-Lifelong, a dataset desi...</description>
+</item>
+<item>
+<title>Truncated Step-Level Sampling with Process Rewards for Retrieval-Augmented Reasoning</title>
+<link>https://huggingface.co/papers/2602.23440</link>
+<guid isPermaLink="false">828e44237f1ec90b076e4a4803849e0007933b4e</guid>
+<description>Training large language models to reason with search engines via reinforcement learning is hindered by a fundamental credit assignment problem: existing methods such as Search-R1 provide only a sparse outcome reward after an entire multi...</description>
 </item>
 <item>
 <title>Lightweight Visual Reasoning for Socially-Aware Robots</title>
@@ -131,16 +131,16 @@
 <description>Reasoning models think out loud, but much of what they say is noise. We introduce OPSDC (On-Policy Self-Distillation for Reasoning Compression), a method that teaches models to reason more concisely by distilling their own concise behavi...</description>
 </item>
 <item>
-<title>Distribution-Conditioned Transport</title>
-<link>https://huggingface.co/papers/2603.04736</link>
-<guid isPermaLink="false">be2eb88465d80d39f83b254b950528d2d7f32664</guid>
-<description>Learning a transport model that maps a source distribution to a target distribution is a canonical problem in machine learning, but scientific applications increasingly require models that can generalize to source and target distribution...</description>
-</item>
-<item>
 <title>Latent Particle World Models: Self-supervised Object-centric Stochastic Dynamics Modeling</title>
 <link>https://huggingface.co/papers/2603.04553</link>
 <guid isPermaLink="false">4baa003bb1fb72d47c2bab57c8fb4445b5bb7f6b</guid>
 <description>We introduce Latent Particle World Model (LPWM), a self-supervised object-centric world model scaled to real-world multi-object datasets and applicable in decision-making. LPWM autonomously discovers keypoints, bounding boxes, and object...</description>
+</item>
+<item>
+<title>Distribution-Conditioned Transport</title>
+<link>https://huggingface.co/papers/2603.04736</link>
+<guid isPermaLink="false">be2eb88465d80d39f83b254b950528d2d7f32664</guid>
+<description>Learning a transport model that maps a source distribution to a target distribution is a canonical problem in machine learning, but scientific applications increasingly require models that can generalize to source and target distribution...</description>
 </item>
 <item>
 <title>RoboPocket: Improve Robot Policies Instantly with Your Phone</title>
