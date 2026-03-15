@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sat, 14 Mar 2026 09:50:21 GMT</lastBuildDate>
+<lastBuildDate>Sun, 15 Mar 2026 09:52:05 GMT</lastBuildDate>
 <item>
 <title>DVD: Deterministic Video Depth Estimation with Generative Priors</title>
 <link>https://huggingface.co/papers/2603.12250</link>
@@ -65,6 +65,12 @@
 <description>In real-world deployment, vision-language models often encounter disturbances such as weather, occlusion, and camera motion. Under such conditions, their understanding and reasoning degrade substantially, revealing a gap between clean, c...</description>
 </item>
 <item>
+<title>FireRedASR2S: A State-of-the-Art Industrial-Grade All-in-One Automatic Speech Recognition System</title>
+<link>https://huggingface.co/papers/2603.10420</link>
+<guid isPermaLink="false">0a896645577249f0e6bb324e7dea1f83b099987d</guid>
+<description>We present FireRedASR2S, a state-of-the-art industrial-grade all-in-one automatic speech recognition (ASR) system. It integrates four modules in a unified pipeline: ASR, Voice Activity Detection (VAD), Spoken Language Identification (LID...</description>
+</item>
+<item>
 <title>DIVE: Scaling Diversity in Agentic Task Synthesis for Generalizable Tool Use</title>
 <link>https://huggingface.co/papers/2603.11076</link>
 <guid isPermaLink="false">c90fb9abbab2ee365d97eded0166a67d55c8abe8</guid>
@@ -75,12 +81,6 @@
 <link>https://huggingface.co/papers/2603.11665</link>
 <guid isPermaLink="false">b080f26354e1fdd1aba1f898c60d0171cbdd833e</guid>
 <description>Multimodal Large Language Models (MLLMs) have been widely adopted as MLLM-as-a-Judges due to their strong alignment with human judgment across various visual tasks. However, most existing judge models are optimized for single-task scenar...</description>
-</item>
-<item>
-<title>FireRedASR2S: A State-of-the-Art Industrial-Grade All-in-One Automatic Speech Recognition System</title>
-<link>https://huggingface.co/papers/2603.10420</link>
-<guid isPermaLink="false">0a896645577249f0e6bb324e7dea1f83b099987d</guid>
-<description>We present FireRedASR2S, a state-of-the-art industrial-grade all-in-one automatic speech recognition (ASR) system. It integrates four modules in a unified pipeline: ASR, Voice Activity Detection (VAD), Spoken Language Identification (LID...</description>
 </item>
 <item>
 <title>HyPER-GAN: Hybrid Patch-Based Image-to-Image Translation for Real-Time Photorealism Enhancement</title>
@@ -137,12 +137,6 @@
 <description>Pre-training is crucial for large language models (LLMs), as it is when most representations and capabilities are acquired. However, natural language pre-training has problems: high-quality text is finite, it contains human biases, and i...</description>
 </item>
 <item>
-<title>Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning</title>
-<link>https://huggingface.co/papers/2603.11653</link>
-<guid isPermaLink="false">59a7549110048ebfd52baa283080d8c90c1ebb27</guid>
-<description>Continual Reinforcement Learning (CRL) for Vision-Language-Action (VLA) models is a promising direction toward self-improving embodied agents that can adapt in openended, evolving environments. However, conventional wisdom from continual...</description>
-</item>
-<item>
 <title>SoundWeaver: Semantic Warm-Starting for Text-to-Audio Diffusion Serving</title>
 <link>https://huggingface.co/papers/2603.07865</link>
 <guid isPermaLink="false">e99711c42aace08df26863f491a9a78b141e4025</guid>
@@ -159,6 +153,12 @@
 <link>https://huggingface.co/papers/2603.12046</link>
 <guid isPermaLink="false">35ec9a0fc0a6ededc7a3c0ff00d4b19b464eb526</guid>
 <description>Audio-Visual Speech Recognition (AVSR) leverages both acoustic and visual information for robust recognition under noise. However, how models balance these modalities remains unclear. We present Dr. SHAP-AV, a framework using Shapley val...</description>
+</item>
+<item>
+<title>Simple Recipe Works: Vision-Language-Action Models are Natural Continual Learners with Reinforcement Learning</title>
+<link>https://huggingface.co/papers/2603.11653</link>
+<guid isPermaLink="false">59a7549110048ebfd52baa283080d8c90c1ebb27</guid>
+<description>Continual Reinforcement Learning (CRL) for Vision-Language-Action (VLA) models is a promising direction toward self-improving embodied agents that can adapt in openended, evolving environments. However, conventional wisdom from continual...</description>
 </item>
 <item>
 <title>WaDi: Weight Direction-aware Distillation for One-step Image Synthesis</title>
@@ -269,16 +269,16 @@
 <description>Physics-based humanoid control has achieved remarkable progress in enabling realistic and high-performing single-agent behaviors, yet extending these capabilities to cooperative human-object interaction (HOI) remains challenging. We pres...</description>
 </item>
 <item>
-<title>Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights</title>
-<link>https://huggingface.co/papers/2603.12228</link>
-<guid isPermaLink="false">2fdc3f71d6a9fa89b6353b8f5068d1075cca8452</guid>
-<description>Pretraining produces a learned parameter vector that is typically treated as a starting point for further iterative adaptation. In this work, we instead view the outcome of pretraining as a distribution over parameter vectors, whose supp...</description>
-</item>
-<item>
 <title>Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without Accented Data</title>
 <link>https://huggingface.co/papers/2603.07534</link>
 <guid isPermaLink="false">c9a9ed153edbc03aaeb8a57e53346264dffe7acc</guid>
 <description>Accent is an integral part of society, reflecting multiculturalism and shaping how individuals express identity. The majority of English speakers are non-native (L2) speakers, yet current Text-To-Speech (TTS) systems primarily model Amer...</description>
+</item>
+<item>
+<title>Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights</title>
+<link>https://huggingface.co/papers/2603.12228</link>
+<guid isPermaLink="false">2fdc3f71d6a9fa89b6353b8f5068d1075cca8452</guid>
+<description>Pretraining produces a learned parameter vector that is typically treated as a starting point for further iterative adaptation. In this work, we instead view the outcome of pretraining as a distribution over parameter vectors, whose supp...</description>
 </item>
 <item>
 <title>Attention Sinks Are Provably Necessary in Softmax Transformers: Evidence from Trigger-Conditional Tasks</title>
