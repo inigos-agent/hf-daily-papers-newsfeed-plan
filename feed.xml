@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 15 Mar 2026 09:52:05 GMT</lastBuildDate>
+<lastBuildDate>Mon, 16 Mar 2026 11:14:39 GMT</lastBuildDate>
 <item>
 <title>DVD: Deterministic Video Depth Estimation with Generative Priors</title>
 <link>https://huggingface.co/papers/2603.12250</link>
@@ -113,6 +113,12 @@
 <description>Large language models trained on natural language exhibit pronounced anisotropy: a small number of directions concentrate disproportionate energy, while the remaining dimensions form a broad semantic tail. In low-bit training regimes, th...</description>
 </item>
 <item>
+<title>Training Language Models via Neural Cellular Automata</title>
+<link>https://huggingface.co/papers/2603.10055</link>
+<guid isPermaLink="false">9e1285af5b5a3b8846d0a2885262179d84465408</guid>
+<description>Pre-training is crucial for large language models (LLMs), as it is when most representations and capabilities are acquired. However, natural language pre-training has problems: high-quality text is finite, it contains human biases, and i...</description>
+</item>
+<item>
 <title>Examining Reasoning LLMs-as-Judges in Non-Verifiable LLM Post-Training</title>
 <link>https://huggingface.co/papers/2603.12246</link>
 <guid isPermaLink="false">4a422caa907c715e9a6ed9d8bad4d4fd7b411e38</guid>
@@ -129,12 +135,6 @@
 <link>https://huggingface.co/papers/2603.11178</link>
 <guid isPermaLink="false">1ba04dfa6524a955cd78ba7af23ee7aa93c26206</guid>
 <description>Standard LLM distillation wastes compute on two fronts: problems the student has already mastered (near-zero gradients) and problems far beyond its reach (incoherent gradients that erode existing capabilities). We show that this waste is...</description>
-</item>
-<item>
-<title>Training Language Models via Neural Cellular Automata</title>
-<link>https://huggingface.co/papers/2603.10055</link>
-<guid isPermaLink="false">9e1285af5b5a3b8846d0a2885262179d84465408</guid>
-<description>Pre-training is crucial for large language models (LLMs), as it is when most representations and capabilities are acquired. However, natural language pre-training has problems: high-quality text is finite, it contains human biases, and i...</description>
 </item>
 <item>
 <title>SoundWeaver: Semantic Warm-Starting for Text-to-Audio Diffusion Serving</title>
@@ -269,16 +269,16 @@
 <description>Physics-based humanoid control has achieved remarkable progress in enabling realistic and high-performing single-agent behaviors, yet extending these capabilities to cooperative human-object interaction (HOI) remains challenging. We pres...</description>
 </item>
 <item>
-<title>Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without Accented Data</title>
-<link>https://huggingface.co/papers/2603.07534</link>
-<guid isPermaLink="false">c9a9ed153edbc03aaeb8a57e53346264dffe7acc</guid>
-<description>Accent is an integral part of society, reflecting multiculturalism and shaping how individuals express identity. The majority of English speakers are non-native (L2) speakers, yet current Text-To-Speech (TTS) systems primarily model Amer...</description>
-</item>
-<item>
 <title>Neural Thickets: Diverse Task Experts Are Dense Around Pretrained Weights</title>
 <link>https://huggingface.co/papers/2603.12228</link>
 <guid isPermaLink="false">2fdc3f71d6a9fa89b6353b8f5068d1075cca8452</guid>
 <description>Pretraining produces a learned parameter vector that is typically treated as a starting point for further iterative adaptation. In this work, we instead view the outcome of pretraining as a distribution over parameter vectors, whose supp...</description>
+</item>
+<item>
+<title>Accent Vector: Controllable Accent Manipulation for Multilingual TTS Without Accented Data</title>
+<link>https://huggingface.co/papers/2603.07534</link>
+<guid isPermaLink="false">c9a9ed153edbc03aaeb8a57e53346264dffe7acc</guid>
+<description>Accent is an integral part of society, reflecting multiculturalism and shaping how individuals express identity. The majority of English speakers are non-native (L2) speakers, yet current Text-To-Speech (TTS) systems primarily model Amer...</description>
 </item>
 <item>
 <title>Attention Sinks Are Provably Necessary in Softmax Transformers: Evidence from Trigger-Conditional Tasks</title>
