@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sat, 21 Mar 2026 09:03:41 GMT</lastBuildDate>
+<lastBuildDate>Sun, 22 Mar 2026 09:49:07 GMT</lastBuildDate>
 <item>
 <title>Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding</title>
 <link>https://huggingface.co/papers/2603.19235</link>
@@ -155,16 +155,16 @@
 <description>Simultaneous speech-to-speech translation (SimulS2S) is essential for real-time multilingual communication, with increasing integration into meeting and streaming platforms. Despite this, SimulS2S remains underexplored in research, where...</description>
 </item>
 <item>
-<title>MHPO: Modulated Hazard-aware Policy Optimization for Stable Reinforcement Learning</title>
-<link>https://huggingface.co/papers/2603.16929</link>
-<guid isPermaLink="false">b4d9bc4d3a7e20d153f1a0ccdf6680e4cc9f620a</guid>
-<description>Regulating the importance ratio is critical for the training stability of Group Relative Policy Optimization (GRPO) based frameworks. However, prevailing ratio control methods, such as hard clipping, suffer from non-differentiable bounda...</description>
-</item>
-<item>
 <title>Matryoshka Gaussian Splatting</title>
 <link>https://huggingface.co/papers/2603.19234</link>
 <guid isPermaLink="false">695c4cebec013417116980c692df209fa70f9b29</guid>
 <description>The ability to render scenes at adjustable fidelity from a single model, known as level of detail (LoD), is crucial for practical deployment of 3D Gaussian Splatting (3DGS). Existing discrete LoD methods expose only a limited set of oper...</description>
+</item>
+<item>
+<title>MHPO: Modulated Hazard-aware Policy Optimization for Stable Reinforcement Learning</title>
+<link>https://huggingface.co/papers/2603.16929</link>
+<guid isPermaLink="false">b4d9bc4d3a7e20d153f1a0ccdf6680e4cc9f620a</guid>
+<description>Regulating the importance ratio is critical for the training stability of Group Relative Policy Optimization (GRPO) based frameworks. However, prevailing ratio control methods, such as hard clipping, suffer from non-differentiable bounda...</description>
 </item>
 <item>
 <title>VID-AD: A Dataset for Image-Level Logical Anomaly Detection under Vision-Induced Distraction</title>
