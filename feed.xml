@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 22 Mar 2026 09:49:07 GMT</lastBuildDate>
+<lastBuildDate>Mon, 23 Mar 2026 11:11:09 GMT</lastBuildDate>
 <item>
 <title>Generation Models Know Space: Unleashing Implicit 3D Priors for Scene Understanding</title>
 <link>https://huggingface.co/papers/2603.19235</link>
@@ -95,16 +95,16 @@
 <description>Multi-turn LLM agents are increasingly important for solving complex, interactive tasks, and reinforcement learning (RL) is a key ingredient for improving their long-horizon behavior. However, RL training requires generating large number...</description>
 </item>
 <item>
-<title>What Really Controls Temporal Reasoning in Large Language Models: Tokenisation or Representation of Time?</title>
-<link>https://huggingface.co/papers/2603.19017</link>
-<guid isPermaLink="false">f7933f4c5ee98edd645af8e503b836cd791e7ea0</guid>
-<description>We present MultiTempBench, a multilingual temporal reasoning benchmark spanning three tasks, date arithmetic, time zone conversion, and temporal relation extraction across five languages (English, German, Chinese, Arabic, and Hausa) and...</description>
-</item>
-<item>
 <title>DreamPartGen: Semantically Grounded Part-Level 3D Generation via Collaborative Latent Denoising</title>
 <link>https://huggingface.co/papers/2603.19216</link>
 <guid isPermaLink="false">e1a6276163f890e820d8ecddc93e4edcfec3890c</guid>
 <description>Understanding and generating 3D objects as compositions of meaningful parts is fundamental to human perception and reasoning. However, most text-to-3D methods overlook the semantic and functional structure of parts. While recent part-awa...</description>
+</item>
+<item>
+<title>What Really Controls Temporal Reasoning in Large Language Models: Tokenisation or Representation of Time?</title>
+<link>https://huggingface.co/papers/2603.19017</link>
+<guid isPermaLink="false">f7933f4c5ee98edd645af8e503b836cd791e7ea0</guid>
+<description>We present MultiTempBench, a multilingual temporal reasoning benchmark spanning three tasks, date arithmetic, time zone conversion, and temporal relation extraction across five languages (English, German, Chinese, Arabic, and Hausa) and...</description>
 </item>
 <item>
 <title>Bridging Semantic and Kinematic Conditions with Diffusion-based Discrete Motion Tokenizer</title>
@@ -143,16 +143,16 @@
 <description>Video object removal aims to eliminate dynamic target objects and their visual effects, such as deformation, shadows, and reflections, while restoring seamless backgrounds. Recent diffusion-based video inpainting and object removal metho...</description>
 </item>
 <item>
-<title>Tinted Frames: Question Framing Blinds Vision-Language Models</title>
-<link>https://huggingface.co/papers/2603.19203</link>
-<guid isPermaLink="false">e66167d765bd550e86efa82cec60d874282b10a6</guid>
-<description>Vision-Language Models (VLMs) have been shown to be blind, often underutilizing their visual inputs even on tasks that require visual reasoning. In this work, we demonstrate that VLMs are selectively blind. They modulate the amount of at...</description>
-</item>
-<item>
 <title>SimulU: Training-free Policy for Long-form Simultaneous Speech-to-Speech Translation</title>
 <link>https://huggingface.co/papers/2603.16924</link>
 <guid isPermaLink="false">87082c4b5f925bdeb5f6309d1f2c9792a60f8269</guid>
 <description>Simultaneous speech-to-speech translation (SimulS2S) is essential for real-time multilingual communication, with increasing integration into meeting and streaming platforms. Despite this, SimulS2S remains underexplored in research, where...</description>
+</item>
+<item>
+<title>Tinted Frames: Question Framing Blinds Vision-Language Models</title>
+<link>https://huggingface.co/papers/2603.19203</link>
+<guid isPermaLink="false">e66167d765bd550e86efa82cec60d874282b10a6</guid>
+<description>Vision-Language Models (VLMs) have been shown to be blind, often underutilizing their visual inputs even on tasks that require visual reasoning. In this work, we demonstrate that VLMs are selectively blind. They modulate the amount of at...</description>
 </item>
 <item>
 <title>Matryoshka Gaussian Splatting</title>
