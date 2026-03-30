@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 29 Mar 2026 08:54:52 GMT</lastBuildDate>
+<lastBuildDate>Mon, 30 Mar 2026 09:25:06 GMT</lastBuildDate>
 <item>
 <title>MSA: Memory Sparse Attention for Efficient End-to-End Memory Model Scaling to 100M Tokens</title>
 <link>https://huggingface.co/papers/2603.23516</link>
@@ -83,6 +83,12 @@
 <description>Block-diffusion language models offer a promising path toward faster-than-autoregressive generation by combining block-wise autoregressive decoding with within-block parallel denoising. However, in the few-step regime needed for practica...</description>
 </item>
 <item>
+<title>Nudging Hidden States: Training-Free Model Steering for Chain-of-Thought Reasoning in Large Audio-Language Models</title>
+<link>https://huggingface.co/papers/2603.14636</link>
+<guid isPermaLink="false">ec25d4d0f9c450f898c5bf6e31d5fed37d6b2931</guid>
+<description>Chain-of-thought (CoT) prompting has been extended to large audio-language models (LALMs) to elicit reasoning, yet enhancing its effectiveness without training remains challenging. We study inference-time model steering as a training-fre...</description>
+</item>
+<item>
 <title>Pixel-level Scene Understanding in One Token: Visual States Need What-is-Where Composition</title>
 <link>https://huggingface.co/papers/2603.13904</link>
 <guid isPermaLink="false">9ec86f16ce9cc901c7675f313ec7e58aed81e2bd</guid>
@@ -93,12 +99,6 @@
 <link>https://huggingface.co/papers/2603.25398</link>
 <guid isPermaLink="false">25fde99adc3e8da207521ee9636b16fcfe80cea4</guid>
 <description>Vision Foundation Models (VFMs) pre-trained at scale enable a single frozen encoder to serve multiple downstream tasks simultaneously. Recent VFM-based encoder-only models for image and video segmentation, such as EoMT and VidEoMT, achie...</description>
-</item>
-<item>
-<title>Nudging Hidden States: Training-Free Model Steering for Chain-of-Thought Reasoning in Large Audio-Language Models</title>
-<link>https://huggingface.co/papers/2603.14636</link>
-<guid isPermaLink="false">ec25d4d0f9c450f898c5bf6e31d5fed37d6b2931</guid>
-<description>Chain-of-thought (CoT) prompting has been extended to large audio-language models (LALMs) to elicit reasoning, yet enhancing its effectiveness without training remains challenging. We study inference-time model steering as a training-fre...</description>
 </item>
 <item>
 <title>Extending Precipitation Nowcasting Horizons via Spectral Fusion of Radar Observations and Foundation Model Priors</title>
