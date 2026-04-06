@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 05 Apr 2026 08:57:21 GMT</lastBuildDate>
+<lastBuildDate>Mon, 06 Apr 2026 09:20:30 GMT</lastBuildDate>
 <item>
 <title>Signals: Trajectory Sampling and Triage for Agentic Interactions</title>
 <link>https://huggingface.co/papers/2604.00356</link>
@@ -107,16 +107,16 @@
 <description>The rise of large language models for code has reshaped software development. Autonomous coding agents, able to create branches, open pull requests, and perform code reviews, now actively contribute to real-world projects. Their growing...</description>
 </item>
 <item>
-<title>MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios</title>
-<link>https://huggingface.co/papers/2603.28130</link>
-<guid isPermaLink="false">14f772086a10c05c6108f2fdcb27a786a2eec018</guid>
-<description>We introduce Multilingual Document Parsing Benchmark, the first benchmark for multilingual digital and photographed document parsing. Document parsing has made remarkable strides, yet almost exclusively on clean, digital, well-formatted...</description>
-</item>
-<item>
 <title>Omni123: Exploring 3D Native Foundation Models with Limited 3D Data by Unifying Text to 2D and 3D Generation</title>
 <link>https://huggingface.co/papers/2604.02289</link>
 <guid isPermaLink="false">617095461ffa0c8174ba11beecd95ab2127a011d</guid>
 <description>Recent multimodal large language models have achieved strong performance in unified text and image understanding and generation, yet extending such native capability to 3D remains challenging due to limited data. Compared to abundant 2D...</description>
+</item>
+<item>
+<title>MDPBench: A Benchmark for Multilingual Document Parsing in Real-World Scenarios</title>
+<link>https://huggingface.co/papers/2603.28130</link>
+<guid isPermaLink="false">14f772086a10c05c6108f2fdcb27a786a2eec018</guid>
+<description>We introduce Multilingual Document Parsing Benchmark, the first benchmark for multilingual digital and photographed document parsing. Document parsing has made remarkable strides, yet almost exclusively on clean, digital, well-formatted...</description>
 </item>
 <item>
 <title>Ask or Assume? Uncertainty-Aware Clarification-Seeking in Coding Agents</title>
@@ -149,16 +149,16 @@
 <description>When evaluating identity-focused tasks such as personalized generation and image editing, existing vision encoders entangle object identity with background context, leading to unreliable representations and metrics. We introduce the firs...</description>
 </item>
 <item>
-<title>AIBench: Evaluating Visual-Logical Consistency in Academic Illustration Generation</title>
-<link>https://huggingface.co/papers/2603.28068</link>
-<guid isPermaLink="false">60e8c4cf2af0f4a24b5709e0af871b1a9783dadd</guid>
-<description>Although image generation has boosted various applications via its rapid evolution, whether the state-of-the-art models are able to produce ready-to-use academic illustrations for papers is still largely unexplored. Directly comparing or...</description>
-</item>
-<item>
 <title>Tex3D: Objects as Attack Surfaces via Adversarial 3D Textures for Vision-Language-Action Models</title>
 <link>https://huggingface.co/papers/2604.01618</link>
 <guid isPermaLink="false">aa41a51fc531cae8fcdab111dcb479de707549b4</guid>
 <description>Vision-language-action (VLA) models have shown strong performance in robotic manipulation, yet their robustness to physically realizable adversarial attacks remains underexplored. Existing studies reveal vulnerabilities through language...</description>
+</item>
+<item>
+<title>AIBench: Evaluating Visual-Logical Consistency in Academic Illustration Generation</title>
+<link>https://huggingface.co/papers/2603.28068</link>
+<guid isPermaLink="false">60e8c4cf2af0f4a24b5709e0af871b1a9783dadd</guid>
+<description>Although image generation has boosted various applications via its rapid evolution, whether the state-of-the-art models are able to produce ready-to-use academic illustrations for papers is still largely unexplored. Directly comparing or...</description>
 </item>
 <item>
 <title>Video Models Reason Early: Exploiting Plan Commitment for Maze Solving</title>
@@ -233,16 +233,16 @@
 <description>Despite recent progress, video diffusion models still struggle to synthesize realistic videos involving highly dynamic motions or requiring fine-grained motion controllability. A central limitation lies in the scarcity of such examples i...</description>
 </item>
 <item>
-<title>Efficient and Principled Scientific Discovery through Bayesian Optimization: A Tutorial</title>
-<link>https://huggingface.co/papers/2604.01328</link>
-<guid isPermaLink="false">38621f151dcadb677bf18c3a28fdda890b23bb22</guid>
-<description>Traditional scientific discovery relies on an iterative hypothesise-experiment-refine cycle that has driven progress for centuries, but its intuitive, ad-hoc implementation often wastes resources, yields inefficient designs, and misses c...</description>
-</item>
-<item>
 <title>T5Gemma-TTS Technical Report</title>
 <link>https://huggingface.co/papers/2604.01760</link>
 <guid isPermaLink="false">1c0ec0f2181cf62eb31aa5dcf948f1ef4d7bb99d</guid>
 <description>Autoregressive neural codec language models have shown strong zero-shot voice cloning ability, but decoder-only architectures treat input text as a prefix that competes with the growing audio sequence for positional capacity, weakening t...</description>
+</item>
+<item>
+<title>Efficient and Principled Scientific Discovery through Bayesian Optimization: A Tutorial</title>
+<link>https://huggingface.co/papers/2604.01328</link>
+<guid isPermaLink="false">38621f151dcadb677bf18c3a28fdda890b23bb22</guid>
+<description>Traditional scientific discovery relies on an iterative hypothesise-experiment-refine cycle that has driven progress for centuries, but its intuitive, ad-hoc implementation often wastes resources, yields inefficient designs, and misses c...</description>
 </item>
 <item>
 <title>MultiGen: Level-Design for Editable Multiplayer Worlds in Diffusion Game Engines</title>
