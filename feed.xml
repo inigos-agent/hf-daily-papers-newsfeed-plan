@@ -3,185 +3,179 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Thu, 09 Apr 2026 09:21:17 GMT</lastBuildDate>
+<lastBuildDate>Fri, 10 Apr 2026 09:21:26 GMT</lastBuildDate>
 <item>
-<title>Claw-Eval: Toward Trustworthy Evaluation of Autonomous Agents</title>
-<link>https://huggingface.co/papers/2604.06132</link>
-<guid isPermaLink="false">483351bd1109b836ed025bc4f11b26c860537835</guid>
-<description>Large language models are increasingly deployed as autonomous agents executing multi-step workflows in real-world software environments. However, existing agent benchmarks suffer from three critical limitations: (1) trajectory-opaque gra...</description>
+<title>FlowInOne:Unifying Multimodal Generation as Image-in, Image-out Flow Matching</title>
+<link>https://huggingface.co/papers/2604.06757</link>
+<guid isPermaLink="false">09e8aace2eecc78df18e58e20ee921ac82cafc4f</guid>
+<description>Multimodal generation has long been dominated by text-driven pipelines where language dictates vision but cannot reason or create within it. We challenge this paradigm by asking whether all modalities, including textual descriptions, spa...</description>
 </item>
 <item>
-<title>ClawsBench: Evaluating Capability and Safety of LLM Productivity Agents in Simulated Workspaces</title>
-<link>https://huggingface.co/papers/2604.05172</link>
-<guid isPermaLink="false">8e114e50a0a6f8cd4e4d0b337ed429fe236f1c13</guid>
-<description>Large language model (LLM) agents are increasingly deployed to automate productivity tasks (e.g., email, scheduling, document management), but evaluating them on live services is risky due to potentially irreversible changes. Existing be...</description>
+<title>Q-Zoom: Query-Aware Adaptive Perception for Efficient Multimodal Large Language Models</title>
+<link>https://huggingface.co/papers/2604.06912</link>
+<guid isPermaLink="false">74f2dfb732b26d735ed8c9ab40be92a1e214ed73</guid>
+<description>MLLMs require high-resolution visual inputs for fine-grained tasks like document understanding and dense scene perception. However, current global resolution scaling paradigms indiscriminately flood the quadratic self-attention mechanism...</description>
 </item>
 <item>
-<title>MMEmb-R1: Reasoning-Enhanced Multimodal Embedding with Pair-Aware Selection and Adaptive Control</title>
-<link>https://huggingface.co/papers/2604.06156</link>
-<guid isPermaLink="false">e500fa430d4dacfa1daae43d63867a9209086d42</guid>
-<description>MLLMs have been successfully applied to multimodal embedding tasks, yet their generative reasoning capabilities remain underutilized. Directly incorporating chain-of-thought reasoning into embedding learning introduces two fundamental ch...</description>
+<title>SEVerA: Verified Synthesis of Self-Evolving Agents</title>
+<link>https://huggingface.co/papers/2603.25111</link>
+<guid isPermaLink="false">bba56290f79195730fe37df64b9c3e1b300fbbb7</guid>
+<description>Recent advances have shown the effectiveness of self-evolving LLM agents on tasks such as program repair and scientific discovery. In this paradigm, a planner LLM synthesizes an agent program that invokes parametric models, including LLM...</description>
 </item>
 <item>
-<title>DARE: Diffusion Large Language Models Alignment and Reinforcement Executor</title>
-<link>https://huggingface.co/papers/2604.04215</link>
-<guid isPermaLink="false">2183790521e54edcdf6e291162d8983a32e25e7e</guid>
-<description>Diffusion large language models (dLLMs) are emerging as a compelling alternative to dominant autoregressive models, replacing strictly sequential token generation with iterative denoising and parallel generation dynamics. However, their...</description>
+<title>FP4 Explore, BF16 Train: Diffusion Reinforcement Learning via Efficient Rollout Scaling</title>
+<link>https://huggingface.co/papers/2604.06916</link>
+<guid isPermaLink="false">313af0fb444af7777ada95747ba566a540a18a38</guid>
+<description>Reinforcement-Learning-based post-training has recently emerged as a promising paradigm for aligning text-to-image diffusion models with human preferences. In recent studies, increasing the rollout group size yields pronounced performanc...</description>
 </item>
 <item>
-<title>Paper Circle: An Open-source Multi-agent Research Discovery and Analysis Framework</title>
-<link>https://huggingface.co/papers/2604.06170</link>
-<guid isPermaLink="false">d34ea3150bec65ec0158fe4d97f32eee601a8cf6</guid>
-<description>The rapid growth of scientific literature has made it increasingly difficult for researchers to efficiently discover, evaluate, and synthesize relevant work. Recent advances in multi-agent large language models (LLMs) have demonstrated s...</description>
+<title>Personalized RewardBench: Evaluating Reward Models with Human Aligned Personalization</title>
+<link>https://huggingface.co/papers/2604.07343</link>
+<guid isPermaLink="false">78d44302cb495d658c0d78e4c3a091051f3dcdae</guid>
+<description>Pluralistic alignment has emerged as a critical frontier in the development of Large Language Models (LLMs), with reward models (RMs) serving as a central mechanism for capturing diverse human values. While benchmarks for general respons...</description>
 </item>
 <item>
-<title>Video-MME-v2: Towards the Next Stage in Benchmarks for Comprehensive Video Understanding</title>
-<link>https://huggingface.co/papers/2604.05015</link>
-<guid isPermaLink="false">488079c23f2c19c9dbb8a15bfec5b3c3ddf30cb8</guid>
-<description>With the rapid advancement of video understanding, existing benchmarks are becoming increasingly saturated, exposing a critical discrepancy between inflated leaderboard scores and real-world model capabilities. To address this widening g...</description>
+<title>AgentGL: Towards Agentic Graph Learning with LLMs via Reinforcement Learning</title>
+<link>https://huggingface.co/papers/2604.05846</link>
+<guid isPermaLink="false">4f486158daf1c78508a61a3aaa25fd2b56966cf0</guid>
+<description>Large Language Models (LLMs) increasingly rely on agentic capabilities-iterative retrieval, tool use, and decision-making-to overcome the limits of static, parametric knowledge. Yet existing agentic frameworks treat external information...</description>
 </item>
 <item>
-<title>Scientific Graphics Program Synthesis via Dual Self-Consistency Reinforcement Learning</title>
-<link>https://huggingface.co/papers/2604.06079</link>
-<guid isPermaLink="false">62a9987e7f31a41562c64c75ebeb9de94e01a97d</guid>
-<description>Graphics Program Synthesis is pivotal for interpreting and editing visual data, effectively facilitating the reverse-engineering of static visuals into editable TikZ code. While TikZ is the de facto standard for scientific schematics due...</description>
+<title>Qualixar OS: A Universal Operating System for AI Agent Orchestration</title>
+<link>https://huggingface.co/papers/2604.06392</link>
+<guid isPermaLink="false">b33ddb789c394d77f9a8946b25a4cea1b141c74b</guid>
+<description>We present Qualixar OS, the first application-layer operating system for universal AI agent orchestration. Unlike kernel-level approaches (AIOS) or single-framework tools (AutoGen, CrewAI), Qualixar OS provides a complete runtime for het...</description>
 </item>
 <item>
-<title>REAM: Merging Improves Pruning of Experts in LLMs</title>
-<link>https://huggingface.co/papers/2604.04356</link>
-<guid isPermaLink="false">15ff6d5447061684271276748152505aa0f2a888</guid>
-<description>Mixture-of-Experts (MoE) large language models (LLMs) are among the top-performing architectures. The largest models, often with hundreds of billions of parameters, pose significant memory challenges for deployment. Traditional approache...</description>
+<title>Think in Strokes, Not Pixels: Process-Driven Image Generation via Interleaved Reasoning</title>
+<link>https://huggingface.co/papers/2604.04746</link>
+<guid isPermaLink="false">89826f0f147d834d9120d6135228b1be854bfbaa</guid>
+<description>Humans paint images incrementally: they plan a global layout, sketch a coarse draft, inspect, and refine details, and most importantly, each step is grounded in the evolving visual states. However, can unified multimodal models trained o...</description>
 </item>
 <item>
-<title>Learning to Retrieve from Agent Trajectories</title>
-<link>https://huggingface.co/papers/2604.04949</link>
-<guid isPermaLink="false">f787189ec2bee8bc8b6543e6afe72e15572d20b6</guid>
-<description>Information retrieval (IR) systems have traditionally been designed and trained for human users, with learning-to-rank methods relying heavily on large-scale human interaction logs such as clicks and dwell time. With the rapid emergence...</description>
+<title>RAGEN-2: Reasoning Collapse in Agentic RL</title>
+<link>https://huggingface.co/papers/2604.06268</link>
+<guid isPermaLink="false">abebc36b157b91c424339d82b519934eb4634f38</guid>
+<description>RL training of multi-turn LLM agents is inherently unstable, and reasoning quality directly determines task performance. Entropy is widely used to track reasoning stability. However, entropy only measures diversity within the same input,...</description>
 </item>
 <item>
-<title>GBQA: A Game Benchmark for Evaluating LLMs as Quality Assurance Engineers</title>
-<link>https://huggingface.co/papers/2604.02648</link>
-<guid isPermaLink="false">83f7d7d645f676f8b2a78b87876a0466fab40666</guid>
-<description>The autonomous discovery of bugs remains a significant challenge in modern software development. Compared to code generation, the complexity of dynamic runtime environments makes bug discovery considerably harder for large language model...</description>
+<title>MARS: Enabling Autoregressive Models Multi-Token Generation</title>
+<link>https://huggingface.co/papers/2604.07023</link>
+<guid isPermaLink="false">11cf6bc9902de782358fb566526dfe3aa115950c</guid>
+<description>Autoregressive (AR) language models generate text one token at a time, even when consecutive tokens are highly predictable given earlier context. We introduce MARS (Mask AutoRegreSsion), a lightweight fine-tuning method that teaches an i...</description>
 </item>
 <item>
-<title>MedGemma 1.5 Technical Report</title>
-<link>https://huggingface.co/papers/2604.05081</link>
-<guid isPermaLink="false">2ffd3cf54322d0106cb45fc28cf9295ce5aa4aa5</guid>
-<description>We introduce MedGemma 1.5 4B, the latest model in the MedGemma collection. MedGemma 1.5 expands on MedGemma 1 by integrating additional capabilities: high-dimensional medical imaging (CT/MRI volumes and histopathology whole slide images)...</description>
+<title>INSPATIO-WORLD: A Real-Time 4D World Simulator via Spatiotemporal Autoregressive Modeling</title>
+<link>https://huggingface.co/papers/2604.07209</link>
+<guid isPermaLink="false">ce5368d9dcb55437d12ae0c9ca7c1ff69939d3a6</guid>
+<description>Building world models with spatial consistency and real-time interactivity remains a fundamental challenge in computer vision. Current video generation paradigms often struggle with a lack of spatial persistence and insufficient visual r...</description>
 </item>
 <item>
-<title>ACES: Who Tests the Tests? Leave-One-Out AUC Consistency for Code Generation</title>
-<link>https://huggingface.co/papers/2604.03922</link>
-<guid isPermaLink="false">3cf619180efa53eb3178152317ff15606435fb37</guid>
-<description>Selecting LLM-generated code candidates using LLM-generated tests is challenging because the tests themselves may be incorrect. Existing methods either treat all tests equally or rely on ad-hoc heuristics to filter unreliable tests. Yet...</description>
+<title>DeonticBench: A Benchmark for Reasoning over Rules</title>
+<link>https://huggingface.co/papers/2604.04443</link>
+<guid isPermaLink="false">bccbac17b8b3df278de531e241063218af0e8cb4</guid>
+<description>Reasoning with complex, context-specific rules remains challenging for large language models (LLMs). In legal and policy settings, this manifests as deontic reasoning: reasoning about obligations, permissions, and prohibitions under expl...</description>
 </item>
 <item>
-<title>Beyond Accuracy: Unveiling Inefficiency Patterns in Tool-Integrated Reasoning</title>
-<link>https://huggingface.co/papers/2604.05404</link>
-<guid isPermaLink="false">aba9a502c6d18e42cf658e811d04fe4bb94e212a</guid>
-<description>In real-world Tool-Integrated Reasoning (TIR) scenarios, where LLMs interleave reasoning with external tool calls, a major source of inefficiency is that the toolcalls create pauses between LLM requests and cause KV-Cache eviction, forci...</description>
+<title>A Systematic Study of Cross-Modal Typographic Attacks on Audio-Visual Reasoning</title>
+<link>https://huggingface.co/papers/2604.03995</link>
+<guid isPermaLink="false">f80ec743f2bb407d966de9aa949eb4183bdb529d</guid>
+<description>As audio-visual multi-modal large language models (MLLMs) are increasingly deployed in safety-critical applications, understanding their vulnerabilities is crucial. To this end, we introduce Multi-Modal Typography, a systematic study exa...</description>
 </item>
 <item>
-<title>ThinkTwice: Jointly Optimizing Large Language Models for Reasoning and Self-Refinement</title>
-<link>https://huggingface.co/papers/2604.01591</link>
-<guid isPermaLink="false">f946875dc32a6d22db876083adc67a294bae6ffa</guid>
-<description>We introduce ThinkTwice, a simple two-phase framework that jointly optimizes LLMs to solve reasoning problems and refine the answers, based on Group Relative Policy Optimization (GRPO). In each pair of training steps, ThinkTwice first op...</description>
+<title>The Depth Ceiling: On the Limits of Large Language Models in Discovering Latent Planning</title>
+<link>https://huggingface.co/papers/2604.06427</link>
+<guid isPermaLink="false">91e2cda003362af0c74303e99d567b832fdfda4f</guid>
+<description>The viability of chain-of-thought (CoT) monitoring hinges on models being unable to reason effectively in their latent representations. Yet little is known about the limits of such latent reasoning in LLMs. We test these limits by studyi...</description>
 </item>
 <item>
-<title>How Well Do Agentic Skills Work in the Wild: Benchmarking LLM Skill Usage in Realistic Settings</title>
-<link>https://huggingface.co/papers/2604.04323</link>
-<guid isPermaLink="false">2f1081f32602ac8ede7b5a4edadd1ff331e42f0d</guid>
-<description>Agent skills, which are reusable, domain-specific knowledge artifacts, have become a popular mechanism for extending LLM-based agents, yet formally benchmarking skill usage performance remains scarce. Existing skill benchmarking efforts...</description>
+<title>On the Step Length Confounding in LLM Reasoning Data Selection</title>
+<link>https://huggingface.co/papers/2604.06834</link>
+<guid isPermaLink="false">a65fdffc6e5e8c47f518463663fac90d12cfc9ee</guid>
+<description>Large reasoning models have recently demonstrated strong performance on complex tasks that require long chain-of-thought reasoning, through supervised fine-tuning on large-scale and high-quality datasets. To construct such datasets, exis...</description>
 </item>
 <item>
-<title>Watch Before You Answer: Learning from Visually Grounded Post-Training</title>
-<link>https://huggingface.co/papers/2604.05117</link>
-<guid isPermaLink="false">cb81ed5fb723300483d20e56a28a37decf2766e2</guid>
-<description>It is critical for vision-language models (VLMs) to comprehensively understand visual, temporal, and textual cues. However, despite rapid progress in multimodal modeling, video understanding performance still lags behind text-based reaso...</description>
+<title>VenusBench-Mobile: A Challenging and User-Centric Benchmark for Mobile GUI Agents with Capability Diagnostics</title>
+<link>https://huggingface.co/papers/2604.06182</link>
+<guid isPermaLink="false">9d85c9425eef4a39b0afc803dcbaa20812d7943e</guid>
+<description>Existing online benchmarks for mobile GUI agents remain largely app-centric and task-homogeneous, failing to reflect the diversity and instability of real-world mobile usage. To this end, we introduce VenusBench-Mobile, a challenging onl...</description>
 </item>
 <item>
-<title>General Multimodal Protein Design Enables DNA-Encoding of Chemistry</title>
-<link>https://huggingface.co/papers/2604.05181</link>
-<guid isPermaLink="false">9ed98c15dc693c6df2910cf27d6f3ecdd4dccdcc</guid>
-<description>Evolution is an extraordinary engine for enzymatic diversity, yet the chemistry it has explored remains a narrow slice of what DNA can encode. Deep generative models can design new proteins that bind ligands, but none have created enzyme...</description>
+<title>Combee: Scaling Prompt Learning for Self-Improving Language Model Agents</title>
+<link>https://huggingface.co/papers/2604.04247</link>
+<guid isPermaLink="false">fb8192e994afcacb17055a8db4a03f2bf200cdb7</guid>
+<description>Recent advances in prompt learning allow large language model agents to acquire task-relevant knowledge from inference-time context without parameter changes. For example, existing methods (like ACE or GEPA) can learn system prompts to i...</description>
 </item>
 <item>
-<title>Demystifying When Pruning Works via Representation Hierarchies</title>
-<link>https://huggingface.co/papers/2603.24652</link>
-<guid isPermaLink="false">5607132c05f496a30540df6d8f56ca5c3507600f</guid>
-<description>Network pruning, which removes less important parameters or architectures, is often expected to improve efficiency while preserving performance. However, this expectation does not consistently hold across language tasks: pruned models ca...</description>
+<title>Neural Computers</title>
+<link>https://huggingface.co/papers/2604.06425</link>
+<guid isPermaLink="false">e6f3f6c5e45d41617041952a205b55f2ed85a90e</guid>
+<description>We propose a new frontier: Neural Computers (NCs) -- an emerging machine form that unifies computation, memory, and I/O in a learned runtime state. Unlike conventional computers, which execute explicit programs, agents, which act over ex...</description>
 </item>
 <item>
-<title>Experience Transfer for Multimodal LLM Agents in Minecraft Game</title>
-<link>https://huggingface.co/papers/2604.05533</link>
-<guid isPermaLink="false">43f3b7460dec43fad15006511bb6f19d133e3596</guid>
-<description>Multimodal LLM agents operating in complex game environments must continually reuse past experience to solve new tasks efficiently. In this work, we propose Echo, a transfer-oriented memory framework that enables agents to derive actiona...</description>
+<title>Graph-Based Chain-of-Thought Pruning for Reducing Redundant Reflections in Reasoning LLMs</title>
+<link>https://huggingface.co/papers/2604.05643</link>
+<guid isPermaLink="false">ba2aa6f4b511799a711f924cb303050fffc4db11</guid>
+<description>Extending CoT through RL has been widely used to enhance the reasoning capabilities of LLMs. However, due to the sparsity of reward signals, it can also induce undesirable thinking patterns such as overthinking, i.e., generating redundan...</description>
 </item>
 <item>
-<title>QiMeng-PRepair: Precise Code Repair via Edit-Aware Reward Optimization</title>
-<link>https://huggingface.co/papers/2604.05963</link>
-<guid isPermaLink="false">09f2efe67c8d264d9062a0f8ba9220234f208ac1</guid>
-<description>Large Language Models (LLMs) achieve strong program repair performance but often suffer from over-editing, where excessive modifications overwrite correct code and hinder bug localization. We systematically quantify its impact and introd...</description>
+<title>Beyond Hard Negatives: The Importance of Score Distribution in Knowledge Distillation for Dense Retrieval</title>
+<link>https://huggingface.co/papers/2604.04734</link>
+<guid isPermaLink="false">b1d85e0793f466cb5708b71b9886b3360539beb1</guid>
+<description>Transferring knowledge from a cross-encoder teacher via Knowledge Distillation (KD) has become a standard paradigm for training retrieval models. While existing studies have largely focused on mining hard negatives to improve discriminat...</description>
 </item>
 <item>
-<title>Context-Value-Action Architecture for Value-Driven Large Language Model Agents</title>
-<link>https://huggingface.co/papers/2604.05939</link>
-<guid isPermaLink="false">0799f4ef62a0ed0cc5ced12a0096c0181fbf37de</guid>
-<description>Large Language Models (LLMs) have shown promise in simulating human behavior, yet existing agents often exhibit behavioral rigidity, a flaw frequently masked by the self-referential bias of current "LLM-as-a-judge" evaluations. By evalua...</description>
+<title>MoRight: Motion Control Done Right</title>
+<link>https://huggingface.co/papers/2604.07348</link>
+<guid isPermaLink="false">45708998cb99c6ed25be1a77a838080d9d0ba44e</guid>
+<description>Generating motion-controlled videos--where user-specified actions drive physically plausible scene dynamics under freely chosen viewpoints--demands two capabilities: (1) disentangled motion control, allowing users to separately control t...</description>
 </item>
 <item>
-<title>Expert-Choice Routing Enables Adaptive Computation in Diffusion Language Models</title>
-<link>https://huggingface.co/papers/2604.01622</link>
-<guid isPermaLink="false">d1e492a42c2fa8d4a9824a0a3cc8c8d4e91ad300</guid>
-<description>Diffusion language models (DLMs) enable parallel, non-autoregressive text generation, yet existing DLM mixture-of-experts (MoE) models inherit token-choice (TC) routing from autoregressive systems, leading to load imbalance and rigid com...</description>
+<title>GenLCA: 3D Diffusion for Full-Body Avatars from In-the-Wild Videos</title>
+<link>https://huggingface.co/papers/2604.07273</link>
+<guid isPermaLink="false">ad60a6503481654238b94765d5d22e1e00b4f8ae</guid>
+<description>We present GenLCA, a diffusion-based generative model for generating and editing photorealistic full-body avatars from text and image inputs. The generated avatars are faithful to the inputs, while supporting high-fidelity facial and ful...</description>
 </item>
 <item>
-<title>Vanast: Virtual Try-On with Human Image Animation via Synthetic Triplet Supervision</title>
-<link>https://huggingface.co/papers/2604.04934</link>
-<guid isPermaLink="false">9bc95f8ace2be773f74e58a26eb7e6b95e0c5c99</guid>
-<description>We present Vanast, a unified framework that generates garment-transferred human animation videos directly from a single human image, garment images, and a pose guidance video. Conventional two-stage pipelines treat image-based virtual tr...</description>
+<title>R3PM-Net: Real-time, Robust, Real-world Point Matching Network</title>
+<link>https://huggingface.co/papers/2604.05060</link>
+<guid isPermaLink="false">89d2cd807561dd60f1422ef3c5891e1b0c6bfa0a</guid>
+<description>Accurate Point Cloud Registration (PCR) is an important task in 3D data processing, involving the estimation of a rigid transformation between two point clouds. While deep-learning methods have addressed key limitations of traditional no...</description>
 </item>
 <item>
-<title>MegaTrain: Full Precision Training of 100B+ Parameter Large Language Models on a Single GPU</title>
-<link>https://huggingface.co/papers/2604.05091</link>
-<guid isPermaLink="false">31bfb9e73894805d2c06132d7a59cc7603f0763d</guid>
-<description>We present MegaTrain, a memory-centric system that efficiently trains 100B+ parameter large language models at full precision on a single GPU. Unlike traditional GPU-centric systems, MegaTrain stores parameters and optimizer states in ho...</description>
+<title>TC-AE: Unlocking Token Capacity for Deep Compression Autoencoders</title>
+<link>https://huggingface.co/papers/2604.07340</link>
+<guid isPermaLink="false">2e99ebaa61179bed5d3c1d6730d76a09d82f99ee</guid>
+<description>We propose TC-AE, a ViT-based architecture for deep compression autoencoders. Existing methods commonly increase the channel number of latent representations to maintain reconstruction quality under high compression ratios. However, this...</description>
 </item>
 <item>
-<title>In-Place Test-Time Training</title>
-<link>https://huggingface.co/papers/2604.06169</link>
-<guid isPermaLink="false">ba11d7613f79dc0122be8e80c33cc88f9530b8c3</guid>
-<description>The static ``train then deploy" paradigm fundamentally limits Large Language Models (LLMs) from dynamically adapting their weights in response to continuous streams of new information inherent in real-world tasks. Test-Time Training (TTT...</description>
+<title>Improving Semantic Proximity in Information Retrieval through Cross-Lingual Alignment</title>
+<link>https://huggingface.co/papers/2604.05684</link>
+<guid isPermaLink="false">28925e20c5398472d47df7a2babf7ad26349039f</guid>
+<description>With the increasing accessibility and utilization of multilingual documents, Cross-Lingual Information Retrieval (CLIR) has emerged as an important research area. Conventionally, CLIR tasks have been conducted under settings where the la...</description>
 </item>
 <item>
-<title>Squeez: Task-Conditioned Tool-Output Pruning for Coding Agents</title>
-<link>https://huggingface.co/papers/2604.04979</link>
-<guid isPermaLink="false">93ded51caa077f1f3b12602df1c50ca0ea5bc0cf</guid>
-<description>Coding agents repeatedly consume long tool observations even though only a small fraction of each observation matters for the next step. We study task-conditioned tool-output pruning: given a focused query and one tool output, return the...</description>
+<title>A Frame is Worth One Token: Efficient Generative World Modeling with Delta Tokens</title>
+<link>https://huggingface.co/papers/2604.04913</link>
+<guid isPermaLink="false">b4b959e29a2d53adb8dd851cabb4b407163e7047</guid>
+<description>Anticipating diverse future states is a central challenge in video world modeling. Discriminative world models produce a deterministic prediction that implicitly averages over possible futures, while existing generative world models rema...</description>
 </item>
 <item>
-<title>Can Natural Image Autoencoders Compactly Tokenize fMRI Volumes for Long-Range Dynamics Modeling?</title>
-<link>https://huggingface.co/papers/2604.03619</link>
-<guid isPermaLink="false">fde4074fbe654e24384eabd6ab13bcc11d9f11f2</guid>
-<description>Modeling long-range spatiotemporal dynamics in functional Magnetic Resonance Imaging (fMRI) remains a key challenge due to the high dimensionality of the four-dimensional signals. Prior voxel-based models, although demonstrating excellen...</description>
+<title>Learning to Hint for Reinforcement Learning</title>
+<link>https://huggingface.co/papers/2604.00698</link>
+<guid isPermaLink="false">0a2db21169ee7ea4efcfae50351936975b22d5d2</guid>
+<description>Group Relative Policy Optimization (GRPO) is widely used for reinforcement learning with verifiable rewards, but it often suffers from advantage collapse: when all rollouts in a group receive the same reward, the group yields zero relati...</description>
 </item>
 <item>
-<title>FactReview: Evidence-Grounded Reviews with Literature Positioning and Execution-Based Claim Verification</title>
-<link>https://huggingface.co/papers/2604.04074</link>
-<guid isPermaLink="false">9f9ff4150f23ae4202256d3db03a50edeed8d709</guid>
-<description>Peer review in machine learning is under growing pressure from rising submission volume and limited reviewer time. Most LLM-based reviewing systems read only the manuscript and generate comments from the paper's own narrative. This makes...</description>
+<title>Tunable Soft Equivariance with Guarantees</title>
+<link>https://huggingface.co/papers/2603.26657</link>
+<guid isPermaLink="false">76eb0533c022e06af6268857a795ff8c351215cc</guid>
+<description>Equivariance is a fundamental property in computer vision models, yet strict equivariance is rarely satisfied in real-world data, which can limit a model's performance. Controlling the degree of equivariance is therefore desirable. We pr...</description>
 </item>
 <item>
-<title>CUE-R: Beyond the Final Answer in Retrieval-Augmented Generation</title>
-<link>https://huggingface.co/papers/2604.05467</link>
-<guid isPermaLink="false">e917ba7f633c8828e0075f25ab0efe5d3b103644</guid>
-<description>As language models shift from single-shot answer generation toward multi-step reasoning that retrieves and consumes evidence mid-inference, evaluating the role of individual retrieved items becomes more important. Existing RAG evaluation...</description>
-</item>
-<item>
-<title>Action Images: End-to-End Policy Learning via Multiview Video Generation</title>
-<link>https://huggingface.co/papers/2604.06168</link>
-<guid isPermaLink="false">f083294e6c1e92c56209c0c970d9bbbdfc3684d4</guid>
-<description>World action models (WAMs) have emerged as a promising direction for robot policy learning, as they can leverage powerful video backbones to model the future states. However, existing approaches often rely on separate action modules, or...</description>
+<title>Fast Spatial Memory with Elastic Test-Time Training</title>
+<link>https://huggingface.co/papers/2604.07350</link>
+<guid isPermaLink="false">60b5acbce6b541cafd2d4a1f7ec4b4fd71de56ff</guid>
+<description>Large Chunk Test-Time Training (LaCT) has shown strong performance on long-context 3D reconstruction, but its fully plastic inference-time updates remain vulnerable to catastrophic forgetting and overfitting. As a result, LaCT is typical...</description>
 </item>
 </channel></rss>
