@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sat, 11 Apr 2026 08:57:36 GMT</lastBuildDate>
+<lastBuildDate>Sun, 12 Apr 2026 09:01:22 GMT</lastBuildDate>
 <item>
 <title>HY-Embodied-0.5: Embodied Foundation Models for Real-World Agents</title>
 <link>https://huggingface.co/papers/2604.07430</link>
@@ -41,16 +41,16 @@
 <description>AI agents may be able to automate your inbox, but can they automate other routine aspects of your life? Everyday online tasks offer a realistic yet unsolved testbed for evaluating the next generation of AI agents. To this end, we introdu...</description>
 </item>
 <item>
-<title>OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks</title>
-<link>https://huggingface.co/papers/2604.08539</link>
-<guid isPermaLink="false">e434b2292522caa7f36af14f6cf7241191f6f13d</guid>
-<description>Group Relative Policy Optimization (GRPO) has emerged as the de facto Reinforcement Learning (RL) objective driving recent advancements in Multimodal Large Language Models. However, extending this success to open-source multimodal genera...</description>
-</item>
-<item>
 <title>DMax: Aggressive Parallel Decoding for dLLMs</title>
 <link>https://huggingface.co/papers/2604.08302</link>
 <guid isPermaLink="false">074181e060f1987fcf36914a1d0472adb9349b35</guid>
 <description>We present DMax, a new paradigm for efficient diffusion language models (dLLMs). It mitigates error accumulation in parallel decoding, enabling aggressive decoding parallelism while preserving generation quality. Unlike conventional mask...</description>
+</item>
+<item>
+<title>OpenVLThinkerV2: A Generalist Multimodal Reasoning Model for Multi-domain Visual Tasks</title>
+<link>https://huggingface.co/papers/2604.08539</link>
+<guid isPermaLink="false">e434b2292522caa7f36af14f6cf7241191f6f13d</guid>
+<description>Group Relative Policy Optimization (GRPO) has emerged as the de facto Reinforcement Learning (RL) objective driving recent advancements in Multimodal Large Language Models. However, extending this success to open-source multimodal genera...</description>
 </item>
 <item>
 <title>Act Wisely: Cultivating Meta-Cognitive Tool Use in Agentic Multimodal Models</title>
@@ -77,28 +77,10 @@
 <description>The emergence of Large Language Models (LLMs) has illuminated the potential for a general-purpose user simulator. However, existing benchmarks remain constrained to isolated scenarios, narrow action spaces, or synthetic data, failing to...</description>
 </item>
 <item>
-<title>PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models</title>
-<link>https://huggingface.co/papers/2604.08340</link>
-<guid isPermaLink="false">91c01c90fae12096091ba28b79fe6d0a7bc697cb</guid>
-<description>While Vision-Language Models (VLMs) have achieved remarkable progress in static visual understanding, their deployment in complex 3D embodied environments remains severely limited. Existing benchmarks suffer from four critical deficienci...</description>
-</item>
-<item>
 <title>ImplicitMemBench: Measuring Unconscious Behavioral Adaptation in Large Language Models</title>
 <link>https://huggingface.co/papers/2604.08064</link>
 <guid isPermaLink="false">8c178a05783e198754e0046e8c09161401817669</guid>
 <description>Existing memory benchmarks for LLM agents evaluate explicit recall of facts, yet overlook implicit memory where experience becomes automated behavior without conscious retrieval. This gap is critical: effective assistants must automatica...</description>
-</item>
-<item>
-<title>Beyond Stochastic Exploration: What Makes Training Data Valuable for Agentic Search</title>
-<link>https://huggingface.co/papers/2604.08124</link>
-<guid isPermaLink="false">a56857c85b805048a4a513c160a08dbc336a41b3</guid>
-<description>Reinforcement learning (RL) has become an effective approach for advancing the reasoning capabilities of large language models (LLMs) through the strategic integration of external search engines. However, current RL-based search agents o...</description>
-</item>
-<item>
-<title>QEIL v2: Heterogeneous Computing for Edge Intelligence via Roofline-Derived Pareto-Optimal Energy Modeling and Multi-Objective Orchestration</title>
-<link>https://huggingface.co/papers/2602.06057</link>
-<guid isPermaLink="false">8d91771d4fe62e63f5d43df2cb57e8a21df519ca</guid>
-<description>Deploying large language models (LLMs) on heterogeneous edge devices demands frameworks that jointly optimize energy efficiency, inference quality, and reliability. Our prior QEIL v1 (Kumar &amp; Jha, 2026) achieved 4.82x IPW improvement but...</description>
 </item>
 <item>
 <title>RewardFlow: Generate Images by Optimizing What You Reward</title>
@@ -107,10 +89,28 @@
 <description>We introduce RewardFlow, an inversion-free framework that steers pretrained diffusion and flow-matching models at inference time through multi-reward Langevin dynamics. RewardFlow unifies complementary differentiable rewards for semantic...</description>
 </item>
 <item>
+<title>PokeGym: A Visually-Driven Long-Horizon Benchmark for Vision-Language Models</title>
+<link>https://huggingface.co/papers/2604.08340</link>
+<guid isPermaLink="false">91c01c90fae12096091ba28b79fe6d0a7bc697cb</guid>
+<description>While Vision-Language Models (VLMs) have achieved remarkable progress in static visual understanding, their deployment in complex 3D embodied environments remains severely limited. Existing benchmarks suffer from four critical deficienci...</description>
+</item>
+<item>
 <title>Appear2Meaning: A Cross-Cultural Benchmark for Structured Cultural Metadata Inference from Images</title>
 <link>https://huggingface.co/papers/2604.07338</link>
 <guid isPermaLink="false">65fd9cb2fdc77b03d97b7eb90f61486b2e801d7f</guid>
 <description>Recent advances in vision-language models (VLMs) have improved image captioning for cultural heritage. However, inferring structured cultural metadata (e.g., creator, origin, period) from visual input remains underexplored. We introduce...</description>
+</item>
+<item>
+<title>QEIL v2: Heterogeneous Computing for Edge Intelligence via Roofline-Derived Pareto-Optimal Energy Modeling and Multi-Objective Orchestration</title>
+<link>https://huggingface.co/papers/2602.06057</link>
+<guid isPermaLink="false">8d91771d4fe62e63f5d43df2cb57e8a21df519ca</guid>
+<description>Deploying large language models (LLMs) on heterogeneous edge devices demands frameworks that jointly optimize energy efficiency, inference quality, and reliability. Our prior QEIL v1 (Kumar &amp; Jha, 2026) achieved 4.82x IPW improvement but...</description>
+</item>
+<item>
+<title>Beyond Stochastic Exploration: What Makes Training Data Valuable for Agentic Search</title>
+<link>https://huggingface.co/papers/2604.08124</link>
+<guid isPermaLink="false">a56857c85b805048a4a513c160a08dbc336a41b3</guid>
+<description>Reinforcement learning (RL) has become an effective approach for advancing the reasoning capabilities of large language models (LLMs) through the strategic integration of external search engines. However, current RL-based search agents o...</description>
 </item>
 <item>
 <title>KnowU-Bench: Towards Interactive, Proactive, and Personalized Mobile Agent Evaluation</title>
@@ -179,16 +179,16 @@
 <description>In this paper, we introduce MegaStyle, a novel and scalable data curation pipeline that constructs an intra-style consistent, inter-style diverse and high-quality style dataset. We achieve this by leveraging the consistent text-to-image...</description>
 </item>
 <item>
-<title>Graph of Skills: Dependency-Aware Structural Retrieval for Massive Agent Skills</title>
-<link>https://huggingface.co/papers/2604.05333</link>
-<guid isPermaLink="false">7175a543245cd8552425208beaa5df5ec4f5accf</guid>
-<description>Skill usage has become a core component of modern agent systems and can substantially improve agents' ability to complete complex tasks. In real-world settings, where agents must monitor and interact with numerous personal applications,...</description>
-</item>
-<item>
 <title>FIT: A Large-Scale Dataset for Fit-Aware Virtual Try-On</title>
 <link>https://huggingface.co/papers/2604.08526</link>
 <guid isPermaLink="false">cc0988785af348322564e2d68fce06a6c174d51f</guid>
 <description>Given a person and a garment image, virtual try-on (VTO) aims to synthesize a realistic image of the person wearing the garment, while preserving their original pose and identity. Although recent VTO methods excel at visualizing garment...</description>
+</item>
+<item>
+<title>Graph of Skills: Dependency-Aware Structural Retrieval for Massive Agent Skills</title>
+<link>https://huggingface.co/papers/2604.05333</link>
+<guid isPermaLink="false">7175a543245cd8552425208beaa5df5ec4f5accf</guid>
+<description>Skill usage has become a core component of modern agent systems and can substantially improve agents' ability to complete complex tasks. In real-world settings, where agents must monitor and interact with numerous personal applications,...</description>
 </item>
 <item>
 <title>ViVa: A Video-Generative Value Model for Robot Reinforcement Learning</title>
