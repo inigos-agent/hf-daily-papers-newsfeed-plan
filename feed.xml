@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sat, 18 Apr 2026 09:02:14 GMT</lastBuildDate>
+<lastBuildDate>Sun, 19 Apr 2026 09:03:45 GMT</lastBuildDate>
 <item>
 <title>DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation</title>
 <link>https://huggingface.co/papers/2604.14683</link>
@@ -47,28 +47,16 @@
 <description>While end-to-end Vision-Language-Action (VLA) models offer a promising paradigm for robotic manipulation, fine-tuning them on narrow control data often compromises the profound reasoning capabilities inherited from their base Vision-Lang...</description>
 </item>
 <item>
-<title>UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards</title>
-<link>https://huggingface.co/papers/2604.14967</link>
-<guid isPermaLink="false">e469f9e7cbaf841228c336adfb0318758f98cdae</guid>
-<description>Retrieval-Augmented Generation (RAG) extends Large Vision-Language Models (LVLMs) with external visual knowledge. However, existing visual RAG systems typically rely on generic retrieval signals that overlook the fine-grained visual sema...</description>
-</item>
-<item>
 <title>Dive into Claude Code: The Design Space of Today's and Future AI Agent Systems</title>
 <link>https://huggingface.co/papers/2604.14228</link>
 <guid isPermaLink="false">268ac30ee61655beba0573127a94da9b188269bb</guid>
 <description>Claude Code is an agentic coding tool that can run shell commands, edit files, and call external services on behalf of the user. This study describes its comprehensive architecture by analyzing the publicly available TypeScript source co...</description>
 </item>
 <item>
-<title>Boosting Visual Instruction Tuning with Self-Supervised Guidance</title>
-<link>https://huggingface.co/papers/2604.12966</link>
-<guid isPermaLink="false">dcb0156469e0303c64e75dbef29ea82109512aee</guid>
-<description>Multimodal large language models (MLLMs) perform well on many vision-language tasks but often struggle with vision-centric problems that require fine-grained visual reasoning. Recent evidence suggests that this limitation arises not from...</description>
-</item>
-<item>
-<title>KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs</title>
-<link>https://huggingface.co/papers/2604.13226</link>
-<guid isPermaLink="false">b15af04dec822126d4b2219562950f034a30218d</guid>
-<description>Large Language Models (LLMs) rely heavily on Key-Value (KV) caching to minimize inference latency. However, standard KV caches are context-dependent: reusing a cached document in a new context requires recomputing KV states to account fo...</description>
+<title>UniDoc-RL: Coarse-to-Fine Visual RAG with Hierarchical Actions and Dense Rewards</title>
+<link>https://huggingface.co/papers/2604.14967</link>
+<guid isPermaLink="false">e469f9e7cbaf841228c336adfb0318758f98cdae</guid>
+<description>Retrieval-Augmented Generation (RAG) extends Large Vision-Language Models (LVLMs) with external visual knowledge. However, existing visual RAG systems typically rely on generic retrieval signals that overlook the fine-grained visual sema...</description>
 </item>
 <item>
 <title>LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning</title>
@@ -77,10 +65,10 @@
 <description>Reinforcement Learning (RL) has emerged as a critical driver for enhancing the reasoning capabilities of Large Language Models (LLMs). While recent advancements have focused on reward engineering or data synthesis, few studies exploit th...</description>
 </item>
 <item>
-<title>Cross-Tokenizer LLM Distillation through a Byte-Level Interface</title>
-<link>https://huggingface.co/papers/2604.07466</link>
-<guid isPermaLink="false">ff7196bd38a76386d650e2d8f21dbde2b147b1dd</guid>
-<description>Cross-tokenizer distillation (CTD), the transfer of knowledge from a teacher to a student language model when the two use different tokenizers, remains a largely unsolved problem. Existing approaches rely on heuristic strategies to align...</description>
+<title>KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs</title>
+<link>https://huggingface.co/papers/2604.13226</link>
+<guid isPermaLink="false">b15af04dec822126d4b2219562950f034a30218d</guid>
+<description>Large Language Models (LLMs) rely heavily on Key-Value (KV) caching to minimize inference latency. However, standard KV caches are context-dependent: reusing a cached document in a new context requires recomputing KV states to account fo...</description>
 </item>
 <item>
 <title>MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation</title>
@@ -95,16 +83,28 @@
 <description>We study behavior-regularized reinforcement learning (RL), where regularization toward a reference distribution (the dataset in offline RL or the base model in LLM RL finetuning) is essential to prevent value over-optimization caused by...</description>
 </item>
 <item>
-<title>TRACER: Trace-Based Adaptive Cost-Efficient Routing for LLM Classification</title>
-<link>https://huggingface.co/papers/2604.14531</link>
-<guid isPermaLink="false">5ef65f853e1bd81c300998e33798f667bce09dab</guid>
-<description>Every call to an LLM classification endpoint produces a labeled input-output pair already retained in production logs. These pairs constitute a free, growing training set: a lightweight surrogate trained on them can absorb a significant...</description>
+<title>Boosting Visual Instruction Tuning with Self-Supervised Guidance</title>
+<link>https://huggingface.co/papers/2604.12966</link>
+<guid isPermaLink="false">dcb0156469e0303c64e75dbef29ea82109512aee</guid>
+<description>Multimodal large language models (MLLMs) perform well on many vision-language tasks but often struggle with vision-centric problems that require fine-grained visual reasoning. Recent evidence suggests that this limitation arises not from...</description>
+</item>
+<item>
+<title>Cross-Tokenizer LLM Distillation through a Byte-Level Interface</title>
+<link>https://huggingface.co/papers/2604.07466</link>
+<guid isPermaLink="false">ff7196bd38a76386d650e2d8f21dbde2b147b1dd</guid>
+<description>Cross-tokenizer distillation (CTD), the transfer of knowledge from a teacher to a student language model when the two use different tokenizers, remains a largely unsolved problem. Existing approaches rely on heuristic strategies to align...</description>
 </item>
 <item>
 <title>Representations Before Pixels: Semantics-Guided Hierarchical Video Prediction</title>
 <link>https://huggingface.co/papers/2604.11707</link>
 <guid isPermaLink="false">014389cd5f526d030152e275dd004204eb2ed5e8</guid>
 <description>Accurate future video prediction requires both high visual fidelity and consistent scene semantics, particularly in complex dynamic environments such as autonomous driving. We present Re2Pix, a hierarchical video prediction framework tha...</description>
+</item>
+<item>
+<title>TRACER: Trace-Based Adaptive Cost-Efficient Routing for LLM Classification</title>
+<link>https://huggingface.co/papers/2604.14531</link>
+<guid isPermaLink="false">5ef65f853e1bd81c300998e33798f667bce09dab</guid>
+<description>Every call to an LLM classification endpoint produces a labeled input-output pair already retained in production logs. These pairs constitute a free, growing training set: a lightweight surrogate trained on them can absorb a significant...</description>
 </item>
 <item>
 <title>Don't Retrieve, Navigate: Distilling Enterprise Knowledge into Navigable Agent Skills for QA and RAG</title>
@@ -167,15 +167,15 @@
 <description>The efficient spatial allocation of primitives serves as the foundation of 3D Gaussian Splatting, as it directly dictates the synergy between representation compactness, reconstruction speed, and rendering fidelity. Previous solutions, w...</description>
 </item>
 <item>
-<title>C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences</title>
-<link>https://huggingface.co/papers/2604.13618</link>
-<guid isPermaLink="false">de06ac6282b957629134b10ca5583c9f9c14686b</guid>
-<description>Rubric-augmented verification guides reward models with explicit evaluation criteria, yielding more reliable judgments than single-model verification. However, most existing methods require costly rubric annotations, limiting scalability...</description>
-</item>
-<item>
 <title>Three-Phase Transformer</title>
 <link>https://huggingface.co/papers/2604.14430</link>
 <guid isPermaLink="false">ac7209451a766e4d2e7de4e93e813aaa68487bf5</guid>
 <description>We present Three-Phase Transformer (3PT), a residual-stream structural prior for decoder-only Transformers on a standard SwiGLU + RMSNorm + RoPE + GQA backbone. The hidden vector is partitioned into N equally-sized cyclic channels, each...</description>
+</item>
+<item>
+<title>C2: Scalable Rubric-Augmented Reward Modeling from Binary Preferences</title>
+<link>https://huggingface.co/papers/2604.13618</link>
+<guid isPermaLink="false">de06ac6282b957629134b10ca5583c9f9c14686b</guid>
+<description>Rubric-augmented verification guides reward models with explicit evaluation criteria, yielding more reliable judgments than single-model verification. However, most existing methods require costly rubric annotations, limiting scalability...</description>
 </item>
 </channel></rss>
