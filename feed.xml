@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 19 Apr 2026 09:03:45 GMT</lastBuildDate>
+<lastBuildDate>Mon, 20 Apr 2026 10:06:49 GMT</lastBuildDate>
 <item>
 <title>DR^{3}-Eval: Towards Realistic and Reproducible Deep Research Evaluation</title>
 <link>https://huggingface.co/papers/2604.14683</link>
@@ -59,16 +59,22 @@
 <description>Retrieval-Augmented Generation (RAG) extends Large Vision-Language Models (LVLMs) with external visual knowledge. However, existing visual RAG systems typically rely on generic retrieval signals that overlook the fine-grained visual sema...</description>
 </item>
 <item>
-<title>LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning</title>
-<link>https://huggingface.co/papers/2604.14922</link>
-<guid isPermaLink="false">2ed38780c76db9c51880791c3d73599070c8cc1f</guid>
-<description>Reinforcement Learning (RL) has emerged as a critical driver for enhancing the reasoning capabilities of Large Language Models (LLMs). While recent advancements have focused on reward engineering or data synthesis, few studies exploit th...</description>
-</item>
-<item>
 <title>KV Packet: Recomputation-Free Context-Independent KV Caching for LLMs</title>
 <link>https://huggingface.co/papers/2604.13226</link>
 <guid isPermaLink="false">b15af04dec822126d4b2219562950f034a30218d</guid>
 <description>Large Language Models (LLMs) rely heavily on Key-Value (KV) caching to minimize inference latency. However, standard KV caches are context-dependent: reusing a cached document in a new context requires recomputing KV states to account fo...</description>
+</item>
+<item>
+<title>Boosting Visual Instruction Tuning with Self-Supervised Guidance</title>
+<link>https://huggingface.co/papers/2604.12966</link>
+<guid isPermaLink="false">dcb0156469e0303c64e75dbef29ea82109512aee</guid>
+<description>Multimodal large language models (MLLMs) perform well on many vision-language tasks but often struggle with vision-centric problems that require fine-grained visual reasoning. Recent evidence suggests that this limitation arises not from...</description>
+</item>
+<item>
+<title>LongAct: Harnessing Intrinsic Activation Patterns for Long-Context Reinforcement Learning</title>
+<link>https://huggingface.co/papers/2604.14922</link>
+<guid isPermaLink="false">2ed38780c76db9c51880791c3d73599070c8cc1f</guid>
+<description>Reinforcement Learning (RL) has emerged as a critical driver for enhancing the reasoning capabilities of Large Language Models (LLMs). While recent advancements have focused on reward engineering or data synthesis, few studies exploit th...</description>
 </item>
 <item>
 <title>MM-WebAgent: A Hierarchical Multimodal Web Agent for Webpage Generation</title>
@@ -81,12 +87,6 @@
 <link>https://huggingface.co/papers/2604.14265</link>
 <guid isPermaLink="false">5b6a4728533780cac813ca9c90e0c617ef670ff9</guid>
 <description>We study behavior-regularized reinforcement learning (RL), where regularization toward a reference distribution (the dataset in offline RL or the base model in LLM RL finetuning) is essential to prevent value over-optimization caused by...</description>
-</item>
-<item>
-<title>Boosting Visual Instruction Tuning with Self-Supervised Guidance</title>
-<link>https://huggingface.co/papers/2604.12966</link>
-<guid isPermaLink="false">dcb0156469e0303c64e75dbef29ea82109512aee</guid>
-<description>Multimodal large language models (MLLMs) perform well on many vision-language tasks but often struggle with vision-centric problems that require fine-grained visual reasoning. Recent evidence suggests that this limitation arises not from...</description>
 </item>
 <item>
 <title>Cross-Tokenizer LLM Distillation through a Byte-Level Interface</title>
