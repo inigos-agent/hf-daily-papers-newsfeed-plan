@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sat, 02 May 2026 09:17:20 GMT</lastBuildDate>
+<lastBuildDate>Sun, 03 May 2026 09:38:40 GMT</lastBuildDate>
 <item>
 <title>InteractWeb-Bench: Can Multimodal Agent Escape Blind Execution in Interactive Website Generation?</title>
 <link>https://huggingface.co/papers/2604.27419</link>
@@ -101,16 +101,16 @@
 <description>Poetry has long been a central art form for Arabic speakers, serving as a powerful medium of expression and cultural identity. While modern Arabic speakers continue to value poetry, existing research on Arabic poetry within Large Languag...</description>
 </item>
 <item>
-<title>ExoActor: Exocentric Video Generation as Generalizable Interactive Humanoid Control</title>
-<link>https://huggingface.co/papers/2604.27711</link>
-<guid isPermaLink="false">2cb3f98a9c3162325fb03a52463e3cfc7133884d</guid>
-<description>Humanoid control systems have made significant progress in recent years, yet modeling fluent interaction-rich behavior between a robot, its surrounding environment, and task-relevant objects remains a fundamental challenge. This difficul...</description>
-</item>
-<item>
 <title>Co-Evolving Policy Distillation</title>
 <link>https://huggingface.co/papers/2604.27083</link>
 <guid isPermaLink="false">a4e08e5c42e9726816be44854c12b4f0acb8b09f</guid>
 <description>RLVR and OPD have become standard paradigms for post-training. We provide a unified analysis of these two paradigms in consolidating multiple expert capabilities into a single model, identifying capability loss in different ways: mixed R...</description>
+</item>
+<item>
+<title>ExoActor: Exocentric Video Generation as Generalizable Interactive Humanoid Control</title>
+<link>https://huggingface.co/papers/2604.27711</link>
+<guid isPermaLink="false">2cb3f98a9c3162325fb03a52463e3cfc7133884d</guid>
+<description>Humanoid control systems have made significant progress in recent years, yet modeling fluent interaction-rich behavior between a robot, its surrounding environment, and task-relevant objects remains a fundamental challenge. This difficul...</description>
 </item>
 <item>
 <title>Leveraging Verifier-Based Reinforcement Learning in Image Editing</title>
