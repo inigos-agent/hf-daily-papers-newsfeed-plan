@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 03 May 2026 09:38:40 GMT</lastBuildDate>
+<lastBuildDate>Mon, 04 May 2026 10:22:14 GMT</lastBuildDate>
 <item>
 <title>InteractWeb-Bench: Can Multimodal Agent Escape Blind Execution in Interactive Website Generation?</title>
 <link>https://huggingface.co/papers/2604.27419</link>
@@ -131,16 +131,16 @@
 <description>Realistic long-horizon productivity work is strongly conditioned on user-specific computer environments, where much of the work context is stored and organized through directory structures and content-rich artifacts. To scale synthetic d...</description>
 </item>
 <item>
-<title>The Last Human-Written Paper: Agent-Native Research Artifacts</title>
-<link>https://huggingface.co/papers/2604.24658</link>
-<guid isPermaLink="false">62f152acee49ac1c78dfd535d829b4a3677a62b6</guid>
-<description>Scientific publication compresses a branching, iterative research process into a linear narrative, discarding the majority of what was discovered along the way. This compilation imposes two structural costs: a Storytelling Tax, where fai...</description>
-</item>
-<item>
 <title>MoCapAnything V2: End-to-End Motion Capture for Arbitrary Skeletons</title>
 <link>https://huggingface.co/papers/2604.28130</link>
 <guid isPermaLink="false">afb67898b0dd0463a9b235cd66fe922e00e8bea1</guid>
 <description>Recent methods for arbitrary-skeleton motion capture from monocular video follow a factorized pipeline, where a Video-to-Pose network predicts joint positions and an analytical inverse-kinematics (IK) stage recovers joint rotations. Whil...</description>
+</item>
+<item>
+<title>The Last Human-Written Paper: Agent-Native Research Artifacts</title>
+<link>https://huggingface.co/papers/2604.24658</link>
+<guid isPermaLink="false">62f152acee49ac1c78dfd535d829b4a3677a62b6</guid>
+<description>Scientific publication compresses a branching, iterative research process into a linear narrative, discarding the majority of what was discovered along the way. This compilation imposes two structural costs: a Storytelling Tax, where fai...</description>
 </item>
 <item>
 <title>World2Minecraft: Occupancy-Driven Simulated Scenes Construction</title>
