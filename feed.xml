@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sat, 09 May 2026 09:40:40 GMT</lastBuildDate>
+<lastBuildDate>Sun, 10 May 2026 09:45:30 GMT</lastBuildDate>
 <item>
 <title>Audio-Visual Intelligence in Large Foundation Models</title>
 <link>https://huggingface.co/papers/2605.04045</link>
@@ -35,6 +35,12 @@
 <description>Reinforcement learning (RL) has been applied to improve large language model (LLM) reasoning, yet the systematic study of how training scales with task difficulty has been hampered by the lack of controlled, scalable environments. We int...</description>
 </item>
 <item>
+<title>Recovering Hidden Reward in Diffusion-Based Policies</title>
+<link>https://huggingface.co/papers/2605.00623</link>
+<guid isPermaLink="false">7294be0bd1a3d030f5a9124509a57dd9164d9ccc</guid>
+<description>This paper introduces EnergyFlow, a framework that unifies generative action modeling with inverse reinforcement learning by parameterizing a scalar energy function whose gradient is the denoising field. We establish that under maximum-e...</description>
+</item>
+<item>
 <title>Are We Making Progress in Multimodal Domain Generalization? A Comprehensive Benchmark Study</title>
 <link>https://huggingface.co/papers/2605.06643</link>
 <guid isPermaLink="false">dc19e8524ebbd6ebffa18078506dc0da75550add</guid>
@@ -45,12 +51,6 @@
 <link>https://huggingface.co/papers/2605.05922</link>
 <guid isPermaLink="false">2994821d4ce067bc1a464ae54c2623cae917059f</guid>
 <description>Recent advances in generative video models are increasingly driven by post-training and test-time scaling, both of which critically depend on the quality of video reward models (RMs). An ideal reward model should predict accurate rewards...</description>
-</item>
-<item>
-<title>Recovering Hidden Reward in Diffusion-Based Policies</title>
-<link>https://huggingface.co/papers/2605.00623</link>
-<guid isPermaLink="false">7294be0bd1a3d030f5a9124509a57dd9164d9ccc</guid>
-<description>This paper introduces EnergyFlow, a framework that unifies generative action modeling with inverse reinforcement learning by parameterizing a scalar energy function whose gradient is the denoising field. We establish that under maximum-e...</description>
 </item>
 <item>
 <title>Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning</title>
@@ -83,28 +83,28 @@
 <description>Reinforcement learning for agentic large language models (LLMs) typically relies on a sparse, trajectory-level outcome reward, making it difficult to evaluate the contribution of individual tool-calls within multi-turn interactions. Exis...</description>
 </item>
 <item>
-<title>TabEmbed: Benchmarking and Learning Generalist Embeddings for Tabular Understanding</title>
-<link>https://huggingface.co/papers/2605.04962</link>
-<guid isPermaLink="false">7602d0bb64d903c74b493bad3da2186dc46cb4de</guid>
-<description>Foundation models have established unified representations for natural language processing, yet this paradigm remains largely unexplored for tabular data. Existing methods face fundamental limitations: LLM-based approaches lack retrieval...</description>
-</item>
-<item>
 <title>AI Co-Mathematician: Accelerating Mathematicians with Agentic AI</title>
 <link>https://huggingface.co/papers/2605.06651</link>
 <guid isPermaLink="false">a03f2a6bdfb79c39aa97f2dc066f52ecd8613e9e</guid>
 <description>We introduce the AI co-mathematician, a workbench for mathematicians to interactively leverage AI agents to pursue open-ended research. The AI co-mathematician is optimized to provide holistic support for the exploratory and iterative re...</description>
 </item>
 <item>
-<title>KernelBench-X: A Comprehensive Benchmark for Evaluating LLM-Generated GPU Kernels</title>
-<link>https://huggingface.co/papers/2605.04956</link>
-<guid isPermaLink="false">268b06d4d43a5c48d2188182ce2880603595f6a5</guid>
-<description>LLM-based Triton kernel generation has attracted significant interest, yet a fundamental empirical question remains unanswered: where does this capability break down, and why? We present KernelBench-X, a benchmark designed to answer this...</description>
+<title>TabEmbed: Benchmarking and Learning Generalist Embeddings for Tabular Understanding</title>
+<link>https://huggingface.co/papers/2605.04962</link>
+<guid isPermaLink="false">7602d0bb64d903c74b493bad3da2186dc46cb4de</guid>
+<description>Foundation models have established unified representations for natural language processing, yet this paradigm remains largely unexplored for tabular data. Existing methods face fundamental limitations: LLM-based approaches lack retrieval...</description>
 </item>
 <item>
 <title>PianoCoRe: Combined and Refined Piano MIDI Dataset</title>
 <link>https://huggingface.co/papers/2605.06627</link>
 <guid isPermaLink="false">64cdf338cc1f466ff0a380be5cf1a9622c9ac742</guid>
 <description>Symbolic music datasets with matched scores and performances are essential for many music information retrieval (MIR) tasks. Yet, existing resources often cover a narrow range of composers, lack performance variety, omit note-level align...</description>
+</item>
+<item>
+<title>KernelBench-X: A Comprehensive Benchmark for Evaluating LLM-Generated GPU Kernels</title>
+<link>https://huggingface.co/papers/2605.04956</link>
+<guid isPermaLink="false">268b06d4d43a5c48d2188182ce2880603595f6a5</guid>
+<description>LLM-based Triton kernel generation has attracted significant interest, yet a fundamental empirical question remains unanswered: where does this capability break down, and why? We present KernelBench-X, a benchmark designed to answer this...</description>
 </item>
 <item>
 <title>Generative Quantum-inspired Kolmogorov-Arnold Eigensolver</title>
@@ -137,16 +137,16 @@
 <description>World Action Models (WAMs) have recently emerged as a promising paradigm for robotic manipulation by jointly predicting future visual observations and future actions. However, current WAMs typically execute a fixed number of predicted ac...</description>
 </item>
 <item>
-<title>Nonsense Helps: Prompt Space Perturbation Broadens Reasoning Exploration</title>
-<link>https://huggingface.co/papers/2605.05566</link>
-<guid isPermaLink="false">d0ed24d885dad374a2a9cbbd267a2a4debf7aa4d</guid>
-<description>Reinforcement learning with verifiable rewards, particularly Group Relative Policy Optimization (GRPO), has significantly advanced the reasoning capabilities of Large Language Models (LLMs). However, in complex tasks, GRPO frequently suf...</description>
-</item>
-<item>
 <title>SkillOS: Learning Skill Curation for Self-Evolving Agents</title>
 <link>https://huggingface.co/papers/2605.06614</link>
 <guid isPermaLink="false">95da0d9b62d07f6d3a1d5046f6dbdca9b4c4268d</guid>
 <description>LLM-based agents are increasingly deployed to handle streaming tasks, yet they often remain one-off problem solvers that fail to learn from past interactions. Reusable skills distilled from experience provide a natural substrate for self...</description>
+</item>
+<item>
+<title>Nonsense Helps: Prompt Space Perturbation Broadens Reasoning Exploration</title>
+<link>https://huggingface.co/papers/2605.05566</link>
+<guid isPermaLink="false">d0ed24d885dad374a2a9cbbd267a2a4debf7aa4d</guid>
+<description>Reinforcement learning with verifiable rewards, particularly Group Relative Policy Optimization (GRPO), has significantly advanced the reasoning capabilities of Large Language Models (LLMs). However, in complex tasks, GRPO frequently suf...</description>
 </item>
 <item>
 <title>ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving</title>
@@ -161,16 +161,16 @@
 <description>Large language models (LLMs) are routinely prompted to take on social roles ranging from individuals to institutions, yet it remains unclear whether their internal representations encode the granularity of such roles, from micro-level in...</description>
 </item>
 <item>
-<title>Balanced Aggregation: Understanding and Fixing Aggregation Bias in GRPO</title>
-<link>https://huggingface.co/papers/2605.04077</link>
-<guid isPermaLink="false">d166a0e8c2fca61093235092ede9cbb29ff586f5</guid>
-<description>Reinforcement learning with verifiable rewards (RLVR) has become a central paradigm for improving reasoning and code generation in large language models, and GRPO-style training is widely adopted for its simplicity and effectiveness. How...</description>
-</item>
-<item>
 <title>TIDE: Every Layer Knows the Token Beneath the Context</title>
 <link>https://huggingface.co/papers/2605.06216</link>
 <guid isPermaLink="false">bbf246e8ed6fbc3a6a6502b522c372bcd942afb2</guid>
 <description>We revisit a universally accepted but under-examined design choice in every modern LLM: a token index is looked up once at the input embedding layer and then permanently discarded. This single-injection assumption induces two structural...</description>
+</item>
+<item>
+<title>Balanced Aggregation: Understanding and Fixing Aggregation Bias in GRPO</title>
+<link>https://huggingface.co/papers/2605.04077</link>
+<guid isPermaLink="false">d166a0e8c2fca61093235092ede9cbb29ff586f5</guid>
+<description>Reinforcement learning with verifiable rewards (RLVR) has become a central paradigm for improving reasoning and code generation in large language models, and GRPO-style training is widely adopted for its simplicity and effectiveness. How...</description>
 </item>
 <item>
 <title>RaguTeam at SemEval-2026 Task 8: Meno and Friends in a Judge-Orchestrated LLM Ensemble for Faithful Multi-Turn Response Generation</title>
