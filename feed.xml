@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 10 May 2026 09:45:30 GMT</lastBuildDate>
+<lastBuildDate>Mon, 11 May 2026 11:33:11 GMT</lastBuildDate>
 <item>
 <title>Audio-Visual Intelligence in Large Foundation Models</title>
 <link>https://huggingface.co/papers/2605.04045</link>
@@ -53,16 +53,16 @@
 <description>Recent advances in generative video models are increasingly driven by post-training and test-time scaling, both of which critically depend on the quality of video reward models (RMs). An ideal reward model should predict accurate rewards...</description>
 </item>
 <item>
-<title>Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning</title>
-<link>https://huggingface.co/papers/2605.06130</link>
-<guid isPermaLink="false">63528f8ceec1f9f5be3ce89fc71ee7b6bb7b129a</guid>
-<description>A persistent skill library allows language model agents to reuse successful strategies across tasks. Maintaining such a library requires three coupled capabilities. The agent selects a relevant skill, utilizes it during execution, and di...</description>
-</item>
-<item>
 <title>Continuous Latent Diffusion Language Model</title>
 <link>https://huggingface.co/papers/2605.06548</link>
 <guid isPermaLink="false">8961b4c8ef34828260c7dd03ad519e743b7a7add</guid>
 <description>Large language models have achieved remarkable success under the autoregressive paradigm, yet high-quality text generation need not be tied to a fixed left-to-right order. Existing alternatives still struggle to jointly achieve generatio...</description>
+</item>
+<item>
+<title>Skill1: Unified Evolution of Skill-Augmented Agents via Reinforcement Learning</title>
+<link>https://huggingface.co/papers/2605.06130</link>
+<guid isPermaLink="false">63528f8ceec1f9f5be3ce89fc71ee7b6bb7b129a</guid>
+<description>A persistent skill library allows language model agents to reuse successful strategies across tasks. Maintaining such a library requires three coupled capabilities. The agent selects a relevant skill, utilizes it during execution, and di...</description>
 </item>
 <item>
 <title>Continuous-Time Distribution Matching for Few-Step Diffusion Distillation</title>
@@ -137,16 +137,16 @@
 <description>World Action Models (WAMs) have recently emerged as a promising paradigm for robotic manipulation by jointly predicting future visual observations and future actions. However, current WAMs typically execute a fixed number of predicted ac...</description>
 </item>
 <item>
-<title>SkillOS: Learning Skill Curation for Self-Evolving Agents</title>
-<link>https://huggingface.co/papers/2605.06614</link>
-<guid isPermaLink="false">95da0d9b62d07f6d3a1d5046f6dbdca9b4c4268d</guid>
-<description>LLM-based agents are increasingly deployed to handle streaming tasks, yet they often remain one-off problem solvers that fail to learn from past interactions. Reusable skills distilled from experience provide a natural substrate for self...</description>
-</item>
-<item>
 <title>Nonsense Helps: Prompt Space Perturbation Broadens Reasoning Exploration</title>
 <link>https://huggingface.co/papers/2605.05566</link>
 <guid isPermaLink="false">d0ed24d885dad374a2a9cbbd267a2a4debf7aa4d</guid>
 <description>Reinforcement learning with verifiable rewards, particularly Group Relative Policy Optimization (GRPO), has significantly advanced the reasoning capabilities of Large Language Models (LLMs). However, in complex tasks, GRPO frequently suf...</description>
+</item>
+<item>
+<title>SkillOS: Learning Skill Curation for Self-Evolving Agents</title>
+<link>https://huggingface.co/papers/2605.06614</link>
+<guid isPermaLink="false">95da0d9b62d07f6d3a1d5046f6dbdca9b4c4268d</guid>
+<description>LLM-based agents are increasingly deployed to handle streaming tasks, yet they often remain one-off problem solvers that fail to learn from past interactions. Reusable skills distilled from experience provide a natural substrate for self...</description>
 </item>
 <item>
 <title>ReflectDrive-2: Reinforcement-Learning-Aligned Self-Editing for Discrete Diffusion Driving</title>
@@ -155,16 +155,16 @@
 <description>We introduce ReflectDrive-2, a masked discrete diffusion planner with separate action expert for autonomous driving that represents plans as discrete trajectory tokens and generates them through parallel masked decoding. This discrete to...</description>
 </item>
 <item>
-<title>The Granularity Axis: A Micro-to-Macro Latent Direction for Social Roles in Language Models</title>
-<link>https://huggingface.co/papers/2605.06196</link>
-<guid isPermaLink="false">e76a04ef6163ee0901814f83ef2d58191c38cf8e</guid>
-<description>Large language models (LLMs) are routinely prompted to take on social roles ranging from individuals to institutions, yet it remains unclear whether their internal representations encode the granularity of such roles, from micro-level in...</description>
-</item>
-<item>
 <title>TIDE: Every Layer Knows the Token Beneath the Context</title>
 <link>https://huggingface.co/papers/2605.06216</link>
 <guid isPermaLink="false">bbf246e8ed6fbc3a6a6502b522c372bcd942afb2</guid>
 <description>We revisit a universally accepted but under-examined design choice in every modern LLM: a token index is looked up once at the input embedding layer and then permanently discarded. This single-injection assumption induces two structural...</description>
+</item>
+<item>
+<title>The Granularity Axis: A Micro-to-Macro Latent Direction for Social Roles in Language Models</title>
+<link>https://huggingface.co/papers/2605.06196</link>
+<guid isPermaLink="false">e76a04ef6163ee0901814f83ef2d58191c38cf8e</guid>
+<description>Large language models (LLMs) are routinely prompted to take on social roles ranging from individuals to institutions, yet it remains unclear whether their internal representations encode the granularity of such roles, from micro-level in...</description>
 </item>
 <item>
 <title>Balanced Aggregation: Understanding and Fixing Aggregation Bias in GRPO</title>
@@ -191,22 +191,16 @@
 <description>We study auto research as a closed empirical loop driven by external measurement. Each submitted trial carries a hypothesis, an executable code edit, an evaluator-owned outcome, and feedback that shapes the next proposal. The output is n...</description>
 </item>
 <item>
-<title>RemoteZero: Geospatial Reasoning with Zero Human Annotations</title>
-<link>https://huggingface.co/papers/2605.04451</link>
-<guid isPermaLink="false">30a500c6d5e30d3319c9628d2257ce113442b1aa</guid>
-<description>Geospatial reasoning requires models to resolve complex spatial semantics and user intent into precise target locations for Earth observation. Recent progress has liberated the reasoning path from manual curation, allowing models to gene...</description>
-</item>
-<item>
-<title>SwiftI2V: Efficient High-Resolution Image-to-Video Generation via Conditional Segment-wise Generation</title>
-<link>https://huggingface.co/papers/2605.06356</link>
-<guid isPermaLink="false">67d00445bc0e2d40d793a88f0023cdeeaf9c36a7</guid>
-<description>High-resolution image-to-video (I2V) generation aims to synthesize realistic temporal dynamics while preserving fine-grained appearance details of the input image. At 2K resolution, it becomes extremely challenging, and existing solution...</description>
-</item>
-<item>
 <title>EMO: Pretraining Mixture of Experts for Emergent Modularity</title>
 <link>https://huggingface.co/papers/2605.06663</link>
 <guid isPermaLink="false">605a983e04f5b44a04191ae826e0534f058237d7</guid>
 <description>Large language models are typically deployed as monolithic systems, requiring the full model even when applications need only a narrow subset of capabilities, e.g., code, math, or domain-specific knowledge. Mixture-of-Experts (MoEs) seem...</description>
+</item>
+<item>
+<title>RemoteZero: Geospatial Reasoning with Zero Human Annotations</title>
+<link>https://huggingface.co/papers/2605.04451</link>
+<guid isPermaLink="false">30a500c6d5e30d3319c9628d2257ce113442b1aa</guid>
+<description>Geospatial reasoning requires models to resolve complex spatial semantics and user intent into precise target locations for Earth observation. Recent progress has liberated the reasoning path from manual curation, allowing models to gene...</description>
 </item>
 <item>
 <title>The Scaling Properties of Implicit Deductive Reasoning in Transformers</title>
