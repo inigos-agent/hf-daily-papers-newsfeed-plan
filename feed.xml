@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sat, 16 May 2026 09:49:11 GMT</lastBuildDate>
+<lastBuildDate>Sun, 17 May 2026 09:57:31 GMT</lastBuildDate>
 <item>
 <title>Unlocking Complex Visual Generation via Closed-Loop Verified Reasoning</title>
 <link>https://huggingface.co/papers/2605.14876</link>
@@ -203,10 +203,10 @@
 <description>Recent advances in image generation have made it easy to produce high-quality images. However, these outputs are inherently flattened, entangling foreground elements, background, and text within a fixed canvas. As a result, flexible post...</description>
 </item>
 <item>
-<title>Adaptive Teacher Exposure for Self-Distillation in LLM Reasoning</title>
-<link>https://huggingface.co/papers/2605.11458</link>
-<guid isPermaLink="false">4b9e110b401179463c908f15dc2e3c8f570ccf60</guid>
-<description>On-policy self-distillation has become a strong recipe for LLM reasoning, where a privileged teacher supervises the student's own rollouts while conditioning on the reference solution. A design choice shared by nearly all such methods, h...</description>
+<title>CurveBench: A Benchmark for Exact Topological Reasoning over Nested Jordan Curves</title>
+<link>https://huggingface.co/papers/2605.14068</link>
+<guid isPermaLink="false">1dbc8647f180976c20253c4cdc44e9e63d90ebf5</guid>
+<description>We introduce CurveBench, a benchmark for hierarchical topological reasoning from visual input. CurveBench consists of 756 images of pairwise non-intersecting Jordan curves across easy, polygonal, topographic-inspired, maze-like, and dens...</description>
 </item>
 <item>
 <title>Aligning Latent Geometry for Spherical Flow Matching in Image Generation</title>
@@ -221,10 +221,10 @@
 <description>AI agents are being increasingly deployed in dynamic, open-ended environments that require adapting to new information as it arrives. To efficiently measure this capability for realistic use-cases, we propose building grounded simulation...</description>
 </item>
 <item>
-<title>CurveBench: A Benchmark for Exact Topological Reasoning over Nested Jordan Curves</title>
-<link>https://huggingface.co/papers/2605.14068</link>
-<guid isPermaLink="false">1dbc8647f180976c20253c4cdc44e9e63d90ebf5</guid>
-<description>We introduce CurveBench, a benchmark for hierarchical topological reasoning from visual input. CurveBench consists of 756 images of pairwise non-intersecting Jordan curves across easy, polygonal, topographic-inspired, maze-like, and dens...</description>
+<title>Adaptive Teacher Exposure for Self-Distillation in LLM Reasoning</title>
+<link>https://huggingface.co/papers/2605.11458</link>
+<guid isPermaLink="false">4b9e110b401179463c908f15dc2e3c8f570ccf60</guid>
+<description>On-policy self-distillation has become a strong recipe for LLM reasoning, where a privileged teacher supervises the student's own rollouts while conditioning on the reference solution. A design choice shared by nearly all such methods, h...</description>
 </item>
 <item>
 <title>RewardHarness: Self-Evolving Agentic Post-Training</title>
@@ -245,16 +245,16 @@
 <description>Camera-controlled video generation has made substantial progress, enabling generated videos to follow prescribed viewpoint trajectories. However, existing methods usually learn camera-specific conditioning through camera encoders, contro...</description>
 </item>
 <item>
-<title>Realiz3D: 3D Generation Made Photorealistic via Domain-Aware Learning</title>
-<link>https://huggingface.co/papers/2605.13852</link>
-<guid isPermaLink="false">a19257cd246dd300df70c6c9833becdc0f2488a7</guid>
-<description>We often aim to generate images that are both photorealistic and 3D-consistent, adhering to precise geometry, material, and viewpoint controls. Typically, this is achieved by fine-tuning an image generator, pre-trained on billions of rea...</description>
-</item>
-<item>
 <title>Long Context Pre-Training with Lighthouse Attention</title>
 <link>https://huggingface.co/papers/2605.06554</link>
 <guid isPermaLink="false">d2490baf30813166c45b7bcc96e32ad4c3c9da0e</guid>
 <description>Training causal transformers at extreme sequence lengths is bottlenecked by the quadratic time and memory of scaled dot-product attention (SDPA). In this work, we propose Lighthouse Attention, a training-only symmetrical selection-based...</description>
+</item>
+<item>
+<title>Realiz3D: 3D Generation Made Photorealistic via Domain-Aware Learning</title>
+<link>https://huggingface.co/papers/2605.13852</link>
+<guid isPermaLink="false">a19257cd246dd300df70c6c9833becdc0f2488a7</guid>
+<description>We often aim to generate images that are both photorealistic and 3D-consistent, adhering to precise geometry, material, and viewpoint controls. Typically, this is achieved by fine-tuning an image generator, pre-trained on billions of rea...</description>
 </item>
 <item>
 <title>Forcing-KV: Hybrid KV Cache Compression for Efficient Autoregressive Video Diffusion Models</title>
