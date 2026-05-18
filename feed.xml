@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 17 May 2026 09:57:31 GMT</lastBuildDate>
+<lastBuildDate>Mon, 18 May 2026 11:51:54 GMT</lastBuildDate>
 <item>
 <title>Unlocking Complex Visual Generation via Closed-Loop Verified Reasoning</title>
 <link>https://huggingface.co/papers/2605.14876</link>
@@ -83,16 +83,16 @@
 <description>Long-term memory is essential for LLM agents that operate across multiple sessions, yet existing memory systems treat retrieval infrastructure as fixed: stored content evolves while scoring functions, fusion strategies, and answer-genera...</description>
 </item>
 <item>
-<title>ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both</title>
-<link>https://huggingface.co/papers/2605.15198</link>
-<guid isPermaLink="false">a48f826e02e1a0e242cadbe5719697098ab43d92</guid>
-<description>Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models during reasoning, but this is computatio...</description>
-</item>
-<item>
 <title>PanoWorld: Towards Spatial Supersensing in 360^circ Panorama World</title>
 <link>https://huggingface.co/papers/2605.13169</link>
 <guid isPermaLink="false">432ba2515412bf285df5314ba0ce8f8c082cc484</guid>
 <description>Multimodal large laboratory models (MLLMs) still struggle with spatial understanding under the dominant perspective-image paradigm, which inherits the narrow field of view of human-like perception. For navigation, robotic search, and 3D...</description>
+</item>
+<item>
+<title>ATLAS: Agentic or Latent Visual Reasoning? One Word is Enough for Both</title>
+<link>https://huggingface.co/papers/2605.15198</link>
+<guid isPermaLink="false">a48f826e02e1a0e242cadbe5719697098ab43d92</guid>
+<description>Visual reasoning, often interleaved with intermediate visual states, has emerged as a promising direction in the field. A straightforward approach is to directly generate images via unified models during reasoning, but this is computatio...</description>
 </item>
 <item>
 <title>PRISM: Prior Rectification and Uncertainty-Aware Structure Modeling for Diffusion-Based Text Image Super-Resolution</title>
@@ -203,16 +203,16 @@
 <description>Recent advances in image generation have made it easy to produce high-quality images. However, these outputs are inherently flattened, entangling foreground elements, background, and text within a fixed canvas. As a result, flexible post...</description>
 </item>
 <item>
-<title>CurveBench: A Benchmark for Exact Topological Reasoning over Nested Jordan Curves</title>
-<link>https://huggingface.co/papers/2605.14068</link>
-<guid isPermaLink="false">1dbc8647f180976c20253c4cdc44e9e63d90ebf5</guid>
-<description>We introduce CurveBench, a benchmark for hierarchical topological reasoning from visual input. CurveBench consists of 756 images of pairwise non-intersecting Jordan curves across easy, polygonal, topographic-inspired, maze-like, and dens...</description>
-</item>
-<item>
 <title>Aligning Latent Geometry for Spherical Flow Matching in Image Generation</title>
 <link>https://huggingface.co/papers/2605.15193</link>
 <guid isPermaLink="false">936f7b723e93d4705d152f914b2b585bef65f2d2</guid>
 <description>Latent flow matching for image generation usually transports Gaussian noise to variational autoencoder latents along linear paths. Both endpoints, however, concentrate in thin spherical shells, and a Euclidean chord leaves those shells e...</description>
+</item>
+<item>
+<title>CurveBench: A Benchmark for Exact Topological Reasoning over Nested Jordan Curves</title>
+<link>https://huggingface.co/papers/2605.14068</link>
+<guid isPermaLink="false">1dbc8647f180976c20253c4cdc44e9e63d90ebf5</guid>
+<description>We introduce CurveBench, a benchmark for hierarchical topological reasoning from visual input. CurveBench consists of 756 images of pairwise non-intersecting Jordan curves across easy, polygonal, topographic-inspired, maze-like, and dens...</description>
 </item>
 <item>
 <title>FutureSim: Replaying World Events to Evaluate Adaptive Agents</title>
@@ -245,16 +245,16 @@
 <description>Camera-controlled video generation has made substantial progress, enabling generated videos to follow prescribed viewpoint trajectories. However, existing methods usually learn camera-specific conditioning through camera encoders, contro...</description>
 </item>
 <item>
-<title>Long Context Pre-Training with Lighthouse Attention</title>
-<link>https://huggingface.co/papers/2605.06554</link>
-<guid isPermaLink="false">d2490baf30813166c45b7bcc96e32ad4c3c9da0e</guid>
-<description>Training causal transformers at extreme sequence lengths is bottlenecked by the quadratic time and memory of scaled dot-product attention (SDPA). In this work, we propose Lighthouse Attention, a training-only symmetrical selection-based...</description>
-</item>
-<item>
 <title>Realiz3D: 3D Generation Made Photorealistic via Domain-Aware Learning</title>
 <link>https://huggingface.co/papers/2605.13852</link>
 <guid isPermaLink="false">a19257cd246dd300df70c6c9833becdc0f2488a7</guid>
 <description>We often aim to generate images that are both photorealistic and 3D-consistent, adhering to precise geometry, material, and viewpoint controls. Typically, this is achieved by fine-tuning an image generator, pre-trained on billions of rea...</description>
+</item>
+<item>
+<title>Long Context Pre-Training with Lighthouse Attention</title>
+<link>https://huggingface.co/papers/2605.06554</link>
+<guid isPermaLink="false">d2490baf30813166c45b7bcc96e32ad4c3c9da0e</guid>
+<description>Training causal transformers at extreme sequence lengths is bottlenecked by the quadratic time and memory of scaled dot-product attention (SDPA). In this work, we propose Lighthouse Attention, a training-only symmetrical selection-based...</description>
 </item>
 <item>
 <title>Forcing-KV: Hybrid KV Cache Compression for Efficient Autoregressive Video Diffusion Models</title>
@@ -263,16 +263,16 @@
 <description>Autoregressive (AR) video diffusion models adopt a streaming generation framework, enabling long-horizon video generation with real-time responsiveness, as exemplified by the Self Forcing training paradigm. However, existing AR video dif...</description>
 </item>
 <item>
-<title>BOOKMARKS: Efficient Active Storyline Memory for Role-playing</title>
-<link>https://huggingface.co/papers/2605.14169</link>
-<guid isPermaLink="false">f137909b97845e41193ac5e71a9c7fd086b55a1a</guid>
-<description>Memory systems are critical for role-playing agents (RPAs) to maintain long-horizon consistency. However, existing RPA memory methods (e.g., profiling) mainly rely on recurrent summarization, whose compression inevitably discards importa...</description>
-</item>
-<item>
 <title>Learning to Build the Environment: Self-Evolving Reasoning RL via Verifiable Environment Synthesis</title>
 <link>https://huggingface.co/papers/2605.14392</link>
 <guid isPermaLink="false">12f11c191e6269428b1ed08f2a7faffa6817640c</guid>
 <description>We pursue a vision for self-improving language models in which the model does not merely generate problems or traces to imitate, but constructs the environments that train it. In zero-data reasoning RL, this reframes self-improvement fro...</description>
+</item>
+<item>
+<title>BOOKMARKS: Efficient Active Storyline Memory for Role-playing</title>
+<link>https://huggingface.co/papers/2605.14169</link>
+<guid isPermaLink="false">f137909b97845e41193ac5e71a9c7fd086b55a1a</guid>
+<description>Memory systems are critical for role-playing agents (RPAs) to maintain long-horizon consistency. However, existing RPA memory methods (e.g., profiling) mainly rely on recurrent summarization, whose compression inevitably discards importa...</description>
 </item>
 <item>
 <title>Sat3DGen: Comprehensive Street-Level 3D Scene Generation from Single Satellite Image</title>
