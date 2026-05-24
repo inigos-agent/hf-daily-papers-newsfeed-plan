@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sat, 23 May 2026 10:02:33 GMT</lastBuildDate>
+<lastBuildDate>Sun, 24 May 2026 10:03:16 GMT</lastBuildDate>
 <item>
 <title>ClinSeekAgent: Automating Multimodal Evidence Seeking for Agentic Clinical Reasoning</title>
 <link>https://huggingface.co/papers/2605.20176</link>
@@ -47,16 +47,16 @@
 <description>Multimodal Large Language Models (MLLMs) have made rapid progress in spatial intelligence, yet existing spatial reasoning benchmarks largely assume pristine visual inputs and overlook the degradations that commonly occur in real-world de...</description>
 </item>
 <item>
-<title>GenEvolve: Self-Evolving Image Generation Agents via Tool-Orchestrated Visual Experience Distillation</title>
-<link>https://huggingface.co/papers/2605.21605</link>
-<guid isPermaLink="false">d5d71bb83e3e43c6e5620d9f6cc6d9e75237f5d5</guid>
-<description>Open-ended image generation is no longer a simple prompt-to-image problem. High-quality generation often requires an agent to combine a model's internal generative ability with external resources. As requests become more diverse and dema...</description>
-</item>
-<item>
 <title>AutoRubric-T2I: Robust Rule-Based Reward Model for Text-to-Image Alignment</title>
 <link>https://huggingface.co/papers/2605.17602</link>
 <guid isPermaLink="false">12d5cca50ece23934e29576b7da2c119eca8ea4c</guid>
 <description>Aligning Text-to-Image (T2I) generation models with human preferences increasingly relies on image reward models that score or rank generated images according to prompt alignment and perceptual quality. Existing reward models are commonl...</description>
+</item>
+<item>
+<title>GenEvolve: Self-Evolving Image Generation Agents via Tool-Orchestrated Visual Experience Distillation</title>
+<link>https://huggingface.co/papers/2605.21605</link>
+<guid isPermaLink="false">d5d71bb83e3e43c6e5620d9f6cc6d9e75237f5d5</guid>
+<description>Open-ended image generation is no longer a simple prompt-to-image problem. High-quality generation often requires an agent to combine a model's internal generative ability with external resources. As requests become more diverse and dema...</description>
 </item>
 <item>
 <title>Live Music Diffusion Models: Efficient Fine-Tuning and Post-Training of Interactive Diffusion Music Generators</title>
@@ -131,16 +131,16 @@
 <description>We introduce TerminalWorld, a scalable data engine that automatically reverse-engineers high-fidelity evaluation tasks from "in-the-wild" terminal recordings. Processing 80,870 terminal recordings, the engine yields a full benchmark of 1...</description>
 </item>
 <item>
-<title>Lean Refactor: Multi-Objective Controllable Proof Optimization via Agentic Strategy Search</title>
-<link>https://huggingface.co/papers/2605.20244</link>
-<guid isPermaLink="false">7c2bb07b900fdfcdbbd3e9bedb22aa5f2d2ab9c6</guid>
-<description>We present Lean Refactor, a plug-and-play retrieval-augmented agentic framework for multi-objective, controllable, and version-robust refactoring of Lean proofs. LLM-generated proofs are notoriously correct-but-verbose and brittle across...</description>
-</item>
-<item>
 <title>Rule2DRC: Benchmarking LLM Agents for DRC Script Synthesis with Execution-Guided Test Generation</title>
 <link>https://huggingface.co/papers/2605.15669</link>
 <guid isPermaLink="false">ffeba965423bfbf1f8df0024750e765e050e5d4a</guid>
 <description>Manufacturable chip layouts must satisfy thousands of geometry-based design rules, and design rule checking (DRC) enforces them by running executable DRC scripts on layouts. Translating natural language rules into correct DRC scripts is...</description>
+</item>
+<item>
+<title>Lean Refactor: Multi-Objective Controllable Proof Optimization via Agentic Strategy Search</title>
+<link>https://huggingface.co/papers/2605.20244</link>
+<guid isPermaLink="false">7c2bb07b900fdfcdbbd3e9bedb22aa5f2d2ab9c6</guid>
+<description>We present Lean Refactor, a plug-and-play retrieval-augmented agentic framework for multi-objective, controllable, and version-robust refactoring of Lean proofs. LLM-generated proofs are notoriously correct-but-verbose and brittle across...</description>
 </item>
 <item>
 <title>DelTA: Discriminative Token Credit Assignment for Reinforcement Learning from Verifiable Rewards</title>
@@ -167,16 +167,16 @@
 <description>Autoregressive video diffusion models have enabled real-time, action-conditioned world generation. However, sustaining a persistent world, where revisiting a previously seen viewpoint yields consistent content, remains an open problem. F...</description>
 </item>
 <item>
-<title>Unsupervised Process Reward Models</title>
-<link>https://huggingface.co/papers/2605.10158</link>
-<guid isPermaLink="false">6e18d40497a193f92bd4c9fea8c85c953e562b91</guid>
-<description>Process Reward Models (PRMs) are a powerful mechanism for steering large language model reasoning by providing fine-grained, step-level supervision. However, this effectiveness comes at a significant cost: PRMs require expert annotations...</description>
-</item>
-<item>
 <title>Sensor2Sensor: Cross-Embodiment Sensor Conversion for Autonomous Driving</title>
 <link>https://huggingface.co/papers/2605.22809</link>
 <guid isPermaLink="false">516bc751b17b0978a1cf5a08a62fde5a73c8a3fc</guid>
 <description>Robust training and validation of Autonomous Driving Systems (ADS) require massive, diverse datasets. Proprietary data collected by Autonomous Vehicle (AV) fleets, while high-fidelity, are limited in scale, diversity of sensor configurat...</description>
+</item>
+<item>
+<title>Unsupervised Process Reward Models</title>
+<link>https://huggingface.co/papers/2605.10158</link>
+<guid isPermaLink="false">6e18d40497a193f92bd4c9fea8c85c953e562b91</guid>
+<description>Process Reward Models (PRMs) are a powerful mechanism for steering large language model reasoning by providing fine-grained, step-level supervision. However, this effectiveness comes at a significant cost: PRMs require expert annotations...</description>
 </item>
 <item>
 <title>Gated DeltaNet-2: Decoupling Erase and Write in Linear Attention</title>
@@ -221,6 +221,12 @@
 <description>Model cards describe model behavior through a mixture of textual descriptions and structured artifacts, including performance, configuration, and dataset tables. Existing model search systems rely predominantly on semantic similarity ove...</description>
 </item>
 <item>
+<title>"I didn't Make the Micro Decisions": Measuring, Inducing, and Exposing Goal-Level AI Contributions in Collaboration</title>
+<link>https://huggingface.co/papers/2605.21363</link>
+<guid isPermaLink="false">77b3f2bcba1683b479661b8c6cb51ce3f09f347a</guid>
+<description>As large language models (LLMs) increasingly shape how users form, refine, and extend their goals, attributing contributions in human-AI collaboration becomes critical for users calibrating their own reliance and for evaluators assessing...</description>
+</item>
+<item>
 <title>From Reasoning Chains to Verifiable Subproblems: Curriculum Reinforcement Learning Enables Credit Assignment for LLM Reasoning</title>
 <link>https://huggingface.co/papers/2605.22074</link>
 <guid isPermaLink="false">637c6c1bbe86ddde3e8ff7f819b8dbb336587f90</guid>
@@ -231,12 +237,6 @@
 <link>https://huggingface.co/papers/2605.22777</link>
 <guid isPermaLink="false">bb09c5f8a35137cc8c6dc8d7c4e10aa930b23cc5</guid>
 <description>Representation Autoencoders (RAEs) leverage frozen vision foundation models (VFMs) as tokenizer encoders, providing robust high-level representations that facilitate fast convergence and high-quality generation in latent diffusion models...</description>
-</item>
-<item>
-<title>"I didn't Make the Micro Decisions": Measuring, Inducing, and Exposing Goal-Level AI Contributions in Collaboration</title>
-<link>https://huggingface.co/papers/2605.21363</link>
-<guid isPermaLink="false">77b3f2bcba1683b479661b8c6cb51ce3f09f347a</guid>
-<description>As large language models (LLMs) increasingly shape how users form, refine, and extend their goals, attributing contributions in human-AI collaboration becomes critical for users calibrating their own reliance and for evaluators assessing...</description>
 </item>
 <item>
 <title>FlowLong: Inference-time Long Video Generation via Manifold-constrained Tweedie Matching</title>
@@ -251,28 +251,28 @@
 <description>While most frames in long-form video are redundant, the critical information resides in temporal surprises: moments where the actual visual features deviate from their predicted evolution. Inspired by the human brain's predictive coding,...</description>
 </item>
 <item>
-<title>AnyMo: Geometry-Aware Setup-Agnostic Modeling of Human Motion in the Wild</title>
-<link>https://huggingface.co/papers/2605.22715</link>
-<guid isPermaLink="false">37e1a625a2b48f5a596e5589aa15aad4b0d04af5</guid>
-<description>As wearable and mobile devices become increasingly embedded in daily life, they offer a practical way to continuously sense human motion in the wild. But inertial signals are highly dependent on the sensing setup, including body location...</description>
-</item>
-<item>
 <title>More Context, Larger Models, or Moral Knowledge? A Systematic Study of Schwartz Value Detection in Political Texts</title>
 <link>https://huggingface.co/papers/2605.22641</link>
 <guid isPermaLink="false">6ad1bfcee9078859cd7231a3620ce124699bccfb</guid>
 <description>Detecting Schwartz values in political text is difficult because implicit cues often depend on surrounding arguments and fine-grained distinctions between neighboring values. We study when context and explicit moral knowledge help senten...</description>
 </item>
 <item>
-<title>Disentangling Sampling from Training Budget in Class-Imbalanced CT Body Composition Segmentation</title>
-<link>https://huggingface.co/papers/2605.20405</link>
-<guid isPermaLink="false">e5767134e9a1d15c5140fb9f1fc179b54f1a5758</guid>
-<description>Class imbalance is a fundamental challenge in medical image segmentation, where frequent classes typically dominate training at the expense of rare classes. Loss-based approaches mitigate imbalance by reweighting the per-pixel loss withi...</description>
+<title>AnyMo: Geometry-Aware Setup-Agnostic Modeling of Human Motion in the Wild</title>
+<link>https://huggingface.co/papers/2605.22715</link>
+<guid isPermaLink="false">37e1a625a2b48f5a596e5589aa15aad4b0d04af5</guid>
+<description>As wearable and mobile devices become increasingly embedded in daily life, they offer a practical way to continuously sense human motion in the wild. But inertial signals are highly dependent on the sensing setup, including body location...</description>
 </item>
 <item>
 <title>SAM 3D Animal: Promptable Animal 3D Reconstruction from Images in the Wild</title>
 <link>https://huggingface.co/papers/2605.07604</link>
 <guid isPermaLink="false">016b65d1d68de8085b3c0316914bf5e461626bb2</guid>
 <description>3D animal reconstruction in the wild remains challenging due to large species variation, frequent occlusions, and the prevalence of multi-animal scenes, while existing methods predominantly focus on single-animal settings. We present SAM...</description>
+</item>
+<item>
+<title>Disentangling Sampling from Training Budget in Class-Imbalanced CT Body Composition Segmentation</title>
+<link>https://huggingface.co/papers/2605.20405</link>
+<guid isPermaLink="false">e5767134e9a1d15c5140fb9f1fc179b54f1a5758</guid>
+<description>Class imbalance is a fundamental challenge in medical image segmentation, where frequent classes typically dominate training at the expense of rare classes. Loss-based approaches mitigate imbalance by reweighting the per-pixel loss withi...</description>
 </item>
 <item>
 <title>SceneAligner: 3D-Grounded Floorplan Localization in the Wild</title>
