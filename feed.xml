@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 24 May 2026 10:03:16 GMT</lastBuildDate>
+<lastBuildDate>Mon, 25 May 2026 11:58:41 GMT</lastBuildDate>
 <item>
 <title>ClinSeekAgent: Automating Multimodal Evidence Seeking for Agentic Clinical Reasoning</title>
 <link>https://huggingface.co/papers/2605.20176</link>
@@ -155,16 +155,16 @@
 <description>Simulation-ready physical 3D assets have emerged as a promising direction owing to their broad applicability in downstream tasks. However, most existing 3D generation methods either neglect physical properties or are limited to a single...</description>
 </item>
 <item>
-<title>Forecasting Scientific Progress with Artificial Intelligence</title>
-<link>https://huggingface.co/papers/2605.22681</link>
-<guid isPermaLink="false">b7b80044b1fb260cd633feeefbfbbdd6757ff46b</guid>
-<description>Artificial intelligence (AI) is increasingly embedded in scientific discovery, yet whether it can anticipate scientific progress remains unclear. To study this question, we introduce a temporally grounded evaluation framework for forecas...</description>
-</item>
-<item>
 <title>WorldKV: Efficient World Memory with World Retrieval and Compression</title>
 <link>https://huggingface.co/papers/2605.22718</link>
 <guid isPermaLink="false">3eb7533b3847ea2861d4fec342f7b909decb4671</guid>
 <description>Autoregressive video diffusion models have enabled real-time, action-conditioned world generation. However, sustaining a persistent world, where revisiting a previously seen viewpoint yields consistent content, remains an open problem. F...</description>
+</item>
+<item>
+<title>Forecasting Scientific Progress with Artificial Intelligence</title>
+<link>https://huggingface.co/papers/2605.22681</link>
+<guid isPermaLink="false">b7b80044b1fb260cd633feeefbfbbdd6757ff46b</guid>
+<description>Artificial intelligence (AI) is increasingly embedded in scientific discovery, yet whether it can anticipate scientific progress remains unclear. To study this question, we introduce a temporally grounded evaluation framework for forecas...</description>
 </item>
 <item>
 <title>Sensor2Sensor: Cross-Embodiment Sensor Conversion for Autonomous Driving</title>
@@ -221,6 +221,12 @@
 <description>Model cards describe model behavior through a mixture of textual descriptions and structured artifacts, including performance, configuration, and dataset tables. Existing model search systems rely predominantly on semantic similarity ove...</description>
 </item>
 <item>
+<title>DecQ: Detail-Condensing Queries for Enhanced Reconstruction and Generation in Representation Autoencoders</title>
+<link>https://huggingface.co/papers/2605.22777</link>
+<guid isPermaLink="false">bb09c5f8a35137cc8c6dc8d7c4e10aa930b23cc5</guid>
+<description>Representation Autoencoders (RAEs) leverage frozen vision foundation models (VFMs) as tokenizer encoders, providing robust high-level representations that facilitate fast convergence and high-quality generation in latent diffusion models...</description>
+</item>
+<item>
 <title>"I didn't Make the Micro Decisions": Measuring, Inducing, and Exposing Goal-Level AI Contributions in Collaboration</title>
 <link>https://huggingface.co/papers/2605.21363</link>
 <guid isPermaLink="false">77b3f2bcba1683b479661b8c6cb51ce3f09f347a</guid>
@@ -231,12 +237,6 @@
 <link>https://huggingface.co/papers/2605.22074</link>
 <guid isPermaLink="false">637c6c1bbe86ddde3e8ff7f819b8dbb336587f90</guid>
 <description>Reinforcement learning from verifiable rewards (RLVR) has shown strong promise for LLM reasoning, but outcome-based RLVR remains inefficient on hard problems because correct final-answer rollouts are rare and sample-level credit assignme...</description>
-</item>
-<item>
-<title>DecQ: Detail-Condensing Queries for Enhanced Reconstruction and Generation in Representation Autoencoders</title>
-<link>https://huggingface.co/papers/2605.22777</link>
-<guid isPermaLink="false">bb09c5f8a35137cc8c6dc8d7c4e10aa930b23cc5</guid>
-<description>Representation Autoencoders (RAEs) leverage frozen vision foundation models (VFMs) as tokenizer encoders, providing robust high-level representations that facilitate fast convergence and high-quality generation in latent diffusion models...</description>
 </item>
 <item>
 <title>FlowLong: Inference-time Long Video Generation via Manifold-constrained Tweedie Matching</title>
