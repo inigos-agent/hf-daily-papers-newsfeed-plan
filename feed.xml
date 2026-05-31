@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sat, 30 May 2026 10:09:13 GMT</lastBuildDate>
+<lastBuildDate>Sun, 31 May 2026 10:22:21 GMT</lastBuildDate>
 <item>
 <title>Towards Verifiable Multimodal Deep Research: A Multi-Agent Harness for Interleaved Report Generation</title>
 <link>https://huggingface.co/papers/2605.29861</link>
@@ -137,6 +137,12 @@
 <description>Natural generation allows Large Language Models (LLMs) to produce free-form responses with rich reasoning, yet the lack of structure makes outputs difficult to verify. Conversely, constrained decoding ensures standardized formats but can...</description>
 </item>
 <item>
+<title>Parallax: Parameterized Local Linear Attention for Language Modeling</title>
+<link>https://huggingface.co/papers/2605.29157</link>
+<guid isPermaLink="false">ab59d88b275c75490d800a8f602e4502713895a3</guid>
+<description>Large Language Models (LLMs) have become the central paradigm in artificial intelligence, yet the core computational primitive of attention has remained structurally unchanged. Local Linear Attention (LLA) is an attention mechanism deriv...</description>
+</item>
+<item>
 <title>PANDO: Efficient Multimodal AI Agents via Online Skill Distillation</title>
 <link>https://huggingface.co/papers/2605.24785</link>
 <guid isPermaLink="false">34f6b20c2bc932cdb12626d4565b7bc93d9528e1</guid>
@@ -147,12 +153,6 @@
 <link>https://huggingface.co/papers/2605.21781</link>
 <guid isPermaLink="false">703bc9f15cbcf7913d6676ae49c927cac3247f4a</guid>
 <description>Large language models (LLMs) have become increasingly capable of following instructions and complex reasoning, making prompting a flexible interface for adapting models without parameter updates. Yet prompt design remains labor-intensive...</description>
-</item>
-<item>
-<title>Parallax: Parameterized Local Linear Attention for Language Modeling</title>
-<link>https://huggingface.co/papers/2605.29157</link>
-<guid isPermaLink="false">ab59d88b275c75490d800a8f602e4502713895a3</guid>
-<description>Large Language Models (LLMs) have become the central paradigm in artificial intelligence, yet the core computational primitive of attention has remained structurally unchanged. Local Linear Attention (LLA) is an attention mechanism deriv...</description>
 </item>
 <item>
 <title>Alignment Tampering: How Reinforcement Learning from Human Feedback Is Exploited to Optimize Misaligned Biases</title>
@@ -269,12 +269,6 @@
 <description>Foundation features from self-supervised vision models and text-to-image diffusion models have proven effective for semantic correspondence estimation. However, because these features are learned primarily from 2D image objectives, they...</description>
 </item>
 <item>
-<title>Discovering Cooperative Pipelines: Autoresearch for Sequential Social Dilemmas</title>
-<link>https://huggingface.co/papers/2605.30003</link>
-<guid isPermaLink="false">94d6326ee7956797f9fbcc3d29e388e2ec67e57d</guid>
-<description>We study two-level autoresearch for cooperation: an outer-loop AI agent autonomously redesigns the inner-loop pipeline of an LLM policy-synthesis system for multi-agent Sequential Social Dilemmas (SSDs). A researcher agent R (run as a co...</description>
-</item>
-<item>
 <title>Multi-view Consistent 3D Gaussian Head Avatars 'without' Multi-view Generation</title>
 <link>https://huggingface.co/papers/2605.25220</link>
 <guid isPermaLink="false">2164d7d9413a303da8fb40b821ed862cd9bbe991</guid>
@@ -291,6 +285,12 @@
 <link>https://huggingface.co/papers/2605.22765</link>
 <guid isPermaLink="false">81f789e890dfbd86b76e5bbba18885d41800022e</guid>
 <description>Discrete diffusion models are often trained through clean-data prediction, but the prediction can be used in different ways to define the reverse dynamics. In Masked Diffusion Models (MDM) these choices largely coincide, whereas in Unifo...</description>
+</item>
+<item>
+<title>Discovering Cooperative Pipelines: Autoresearch for Sequential Social Dilemmas</title>
+<link>https://huggingface.co/papers/2605.30003</link>
+<guid isPermaLink="false">94d6326ee7956797f9fbcc3d29e388e2ec67e57d</guid>
+<description>We study two-level autoresearch for cooperation: an outer-loop AI agent autonomously redesigns the inner-loop pipeline of an LLM policy-synthesis system for multi-agent Sequential Social Dilemmas (SSDs). A researcher agent R (run as a co...</description>
 </item>
 <item>
 <title>PhoneWorld: Scaling Phone-Use Agent Environments</title>
