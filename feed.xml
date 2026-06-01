@@ -3,7 +3,7 @@
 <title>HF Daily Papers Feed</title>
 <link>https://huggingface.co/papers</link>
 <description>Daily Hugging Face papers digest</description>
-<lastBuildDate>Sun, 31 May 2026 10:22:21 GMT</lastBuildDate>
+<lastBuildDate>Mon, 01 Jun 2026 13:45:02 GMT</lastBuildDate>
 <item>
 <title>Towards Verifiable Multimodal Deep Research: A Multi-Agent Harness for Interleaved Report Generation</title>
 <link>https://huggingface.co/papers/2605.29861</link>
@@ -71,16 +71,16 @@
 <description>Vision-Language Models (VLMs) often struggle with robust 3D spatial reasoning. Prevailing methods that rely on fine-tuning with 3D visual question-answering (VQA) datasets may overfit dataset-specific biases, while integrating specialize...</description>
 </item>
 <item>
-<title>YoCausal: How Far is Video Generation from World Model? A Causality Perspective</title>
-<link>https://huggingface.co/papers/2605.30346</link>
-<guid isPermaLink="false">1d52ef56d17524864aea2ca8330a88ce249290c1</guid>
-<description>As video diffusion models (VDMs) advance toward world models, a key question arises: do they truly understand causality, or merely overfit to statistical temporal patterns? Existing benchmarks mostly rely on synthetic data, limiting real...</description>
-</item>
-<item>
 <title>Why Far Looks Up: Probing Spatial Representation in Vision-Language Models</title>
 <link>https://huggingface.co/papers/2605.30161</link>
 <guid isPermaLink="false">56440ca5eb2264c24028ac197a6716dd892d655c</guid>
 <description>Vision-language models (VLMs) achieve strong performance on spatial reasoning benchmarks, yet it remains unclear whether this reflects structured 3D understanding or reliance on statistical shortcuts in natural images. We introduce a rep...</description>
+</item>
+<item>
+<title>YoCausal: How Far is Video Generation from World Model? A Causality Perspective</title>
+<link>https://huggingface.co/papers/2605.30346</link>
+<guid isPermaLink="false">1d52ef56d17524864aea2ca8330a88ce249290c1</guid>
+<description>As video diffusion models (VDMs) advance toward world models, a key question arises: do they truly understand causality, or merely overfit to statistical temporal patterns? Existing benchmarks mostly rely on synthetic data, limiting real...</description>
 </item>
 <item>
 <title>EarlyTom: Early Token Compression Completes Fast Video Understanding</title>
@@ -89,28 +89,28 @@
 <description>Video large language models (Video-LLMs) have demonstrated strong capabilities in video understanding tasks. However, their practical deployment is still hindered by the inefficiency introduced by processing massive amounts of visual tok...</description>
 </item>
 <item>
-<title>LoMo: Local Modality Substitution for Deeper Vision-Language Fusion</title>
-<link>https://huggingface.co/papers/2605.30265</link>
-<guid isPermaLink="false">29fd6bdae1dd2176d4805ce7e5c2f77b0b44410b</guid>
-<description>Vision-Language Models (VLMs) have achieved substantial progress across a wide range of understanding and reasoning tasks, driven by large-scale image-text training aimed at multimodal fusion. Ideally, replacing a textual question with i...</description>
-</item>
-<item>
 <title>Colored Noise Diffusion Sampling</title>
 <link>https://huggingface.co/papers/2605.30332</link>
 <guid isPermaLink="false">b3cfc9fcf3e8f74888b522bf9a033f8b2a6a640d</guid>
 <description>Diffusion models achieve state-of-the-art image synthesis, with their generative trajectories fundamentally exhibiting a spectral bias, resolving low-frequency global structures early and high-frequency fine details later. Conventional s...</description>
 </item>
 <item>
-<title>When Cloud Agents Meet Device Agents: Lessons from Hybrid Multi-Agent Systems</title>
-<link>https://huggingface.co/papers/2605.30102</link>
-<guid isPermaLink="false">cc6cc5b7f25af9be09f5e581062052a3a7b09bd0</guid>
-<description>The design space of agentic AI inference spans two extremes: frontier large language models (LLMs), typically hosted in the cloud and offering strong performance across a wide range of tasks at substantially high cost, and more cost-effi...</description>
+<title>LoMo: Local Modality Substitution for Deeper Vision-Language Fusion</title>
+<link>https://huggingface.co/papers/2605.30265</link>
+<guid isPermaLink="false">29fd6bdae1dd2176d4805ce7e5c2f77b0b44410b</guid>
+<description>Vision-Language Models (VLMs) have achieved substantial progress across a wide range of understanding and reasoning tasks, driven by large-scale image-text training aimed at multimodal fusion. Ideally, replacing a textual question with i...</description>
 </item>
 <item>
 <title>LiteCoder-Terminal: Scaling Long-Horizon Terminal Environments for Learning Language Agents</title>
 <link>https://huggingface.co/papers/2605.29559</link>
 <guid isPermaLink="false">b3a5237d1173ae08620fc9b2e3bf86e1a36cd705</guid>
 <description>Mastering terminal environments requires language agents capable of multi-step planning, feedback-grounded execution, and dynamic state adaptation. However, training such agents is currently bottlenecked by a reliance on scraped external...</description>
+</item>
+<item>
+<title>When Cloud Agents Meet Device Agents: Lessons from Hybrid Multi-Agent Systems</title>
+<link>https://huggingface.co/papers/2605.30102</link>
+<guid isPermaLink="false">cc6cc5b7f25af9be09f5e581062052a3a7b09bd0</guid>
+<description>The design space of agentic AI inference spans two extremes: frontier large language models (LLMs), typically hosted in the cloud and offering strong performance across a wide range of tasks at substantially high cost, and more cost-effi...</description>
 </item>
 <item>
 <title>UI-KOBE: Knowledge-Oriented Behavior Exploration for Lightweight Graph-Guided GUI Agents</title>
@@ -251,6 +251,12 @@
 <description>One-shot Program-of-Thought (PoT) emits a Python program that prints a primitive-action plan; a single invalid action silently invalidates the trajectory. We introduce RePoT (Recoverable PoT): a deterministic verified replay that walks t...</description>
 </item>
 <item>
+<title>Geometry Matters: 3D Foundation Priors for Learning Semantic Correspondence</title>
+<link>https://huggingface.co/papers/2605.30093</link>
+<guid isPermaLink="false">f84cbffff98cbf3dee0b42c42a434b1652c8ba62</guid>
+<description>Foundation features from self-supervised vision models and text-to-image diffusion models have proven effective for semantic correspondence estimation. However, because these features are learned primarily from 2D image objectives, they...</description>
+</item>
+<item>
 <title>ChildVox: A Speech, Audio, and Large Audio-Language Model Benchmark in Understanding and Characterizing Sound across Childhood</title>
 <link>https://huggingface.co/papers/2605.29257</link>
 <guid isPermaLink="false">c041cc18ab37823f4edbf0f2a8d10ac978471a04</guid>
@@ -261,12 +267,6 @@
 <link>https://huggingface.co/papers/2605.29271</link>
 <guid isPermaLink="false">8b91d30b403b13c0707b9eaf8d4e8d0f46ac4ecc</guid>
 <description>Tool retrieval over large API catalogs is a core bottleneck for LLM agents: user queries arrive in colloquial, often underspecified language, while the catalog uses technical API vocabulary that no fixed encoder can bridge on its own. Th...</description>
-</item>
-<item>
-<title>Geometry Matters: 3D Foundation Priors for Learning Semantic Correspondence</title>
-<link>https://huggingface.co/papers/2605.30093</link>
-<guid isPermaLink="false">f84cbffff98cbf3dee0b42c42a434b1652c8ba62</guid>
-<description>Foundation features from self-supervised vision models and text-to-image diffusion models have proven effective for semantic correspondence estimation. However, because these features are learned primarily from 2D image objectives, they...</description>
 </item>
 <item>
 <title>Multi-view Consistent 3D Gaussian Head Avatars 'without' Multi-view Generation</title>
@@ -281,6 +281,12 @@
 <description>Globalization and multiculturalism continue to produce increasingly diverse speech varieties. Yet current spoken dialogue systems frequently fail on under-represented dialects and accents, often misidentifying the input language and caus...</description>
 </item>
 <item>
+<title>PhoneWorld: Scaling Phone-Use Agent Environments</title>
+<link>https://huggingface.co/papers/2605.29486</link>
+<guid isPermaLink="false">103eeaea999ad5a02cd2b7f1d08b6622f081dec1</guid>
+<description>A central bottleneck for phone-use agents is that controllable, reproducible environments covering real mobile behavior are hard to build at scale. Existing mobile-agent benchmarks have made important progress on evaluation, but they do...</description>
+</item>
+<item>
 <title>Uniform Diffusion Models Revisited: Leave-One-Out Denoiser and Absorbing State Reformulation</title>
 <link>https://huggingface.co/papers/2605.22765</link>
 <guid isPermaLink="false">81f789e890dfbd86b76e5bbba18885d41800022e</guid>
@@ -291,12 +297,6 @@
 <link>https://huggingface.co/papers/2605.30003</link>
 <guid isPermaLink="false">94d6326ee7956797f9fbcc3d29e388e2ec67e57d</guid>
 <description>We study two-level autoresearch for cooperation: an outer-loop AI agent autonomously redesigns the inner-loop pipeline of an LLM policy-synthesis system for multi-agent Sequential Social Dilemmas (SSDs). A researcher agent R (run as a co...</description>
-</item>
-<item>
-<title>PhoneWorld: Scaling Phone-Use Agent Environments</title>
-<link>https://huggingface.co/papers/2605.29486</link>
-<guid isPermaLink="false">103eeaea999ad5a02cd2b7f1d08b6622f081dec1</guid>
-<description>A central bottleneck for phone-use agents is that controllable, reproducible environments covering real mobile behavior are hard to build at scale. Existing mobile-agent benchmarks have made important progress on evaluation, but they do...</description>
 </item>
 <item>
 <title>OmniRetrieval: Unified Retrieval across Heterogeneous Knowledge Sources</title>
